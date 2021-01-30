@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hack-uconn-website/static/css/main.ee0cf7c1.chunk.css",
-    "main.js": "/hack-uconn-website/static/js/main.1485028b.chunk.js",
-    "main.js.map": "/hack-uconn-website/static/js/main.1485028b.chunk.js.map",
+    "main.js": "/hack-uconn-website/static/js/main.4adab2e1.chunk.js",
+    "main.js.map": "/hack-uconn-website/static/js/main.4adab2e1.chunk.js.map",
     "runtime-main.js": "/hack-uconn-website/static/js/runtime-main.31f42a1f.js",
     "runtime-main.js.map": "/hack-uconn-website/static/js/runtime-main.31f42a1f.js.map",
     "static/js/2.b77093b4.chunk.js": "/hack-uconn-website/static/js/2.b77093b4.chunk.js",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.31f42a1f.js",
     "static/js/2.b77093b4.chunk.js",
     "static/css/main.ee0cf7c1.chunk.css",
-    "static/js/main.1485028b.chunk.js"
+    "static/js/main.4adab2e1.chunk.js"
   ]
 }
