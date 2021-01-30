@@ -1,0 +1,55 @@
+{
+    "phrases": {
+        "aboutText": "About The Event Text Here...",
+        "scheduleText": "Schedule Text Here...",
+        "prizesText": "Prizes Text Here...",
+        "FAQText": "FAQ Text Here...",
+        "Questions":  [
+            {
+                "index": "1",
+                "question": "This is question 1",
+                "answer": "This is question 1 answer"
+            },
+            {
+                "index": "2",
+                "question": "This is question 2",
+                "answer": "This is question 2 answer"
+            },
+            {
+                "index": "3",
+                "question": "This is question 3",
+                "answer": "This is question 3 answer"
+            },
+            {
+                "index": "4",
+                "question": "This is question 4",
+                "answer": "This is question 4 answer"
+            },
+            {
+                "index": "5",
+                "question": "This is question 5",
+                "answer": "This is question 5 answer"
+            },
+            {
+                "index": "6",
+                "question": "This is question 6",
+                "answer": "This is question 6 answer"
+            },
+            {
+                "index": "7",
+                "question": "This is question 7",
+                "answer": "This is question 7 answer"
+            },
+            {
+                "index": "8",
+                "question": "This is question 8",
+                "answer": "This is question 8 answer"
+            },
+            {
+                "index": "9",
+                "question": "This is question 9",
+                "answer": "This is question 9 answer"
+            }
+        ]
+    }
+}

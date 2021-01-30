@@ -1,0 +1,11 @@
+.aboutText {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-shadow: 3px 5px 2px #474747, 0px 0px 10px #000000;
+}
+
+.aboutTextSelected {
+    font-family: 'Quicksand', sans-serif;
+    color: #cce2b9;
+    text-shadow: 3px 5px 2px #474747, 0px 0px 10px #000000;
+}
