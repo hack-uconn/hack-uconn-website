@@ -29,7 +29,7 @@ function App() {
       <TransitionGroup>
         <CSSTransition key={location.key} classNames="fade" timeout={4000}>
           <Switch>
-            <Route path='/' render={(props) => <Home {...props} aboutRef={aboutRef} sponsorsRef={sponsorsRef} faqRef={faqRef} page={page} executeScroll={(ref) => {executeScroll(ref)}}/>}/>
+            <Route path='/hack-uconn-website' render={(props) => <Home {...props} aboutRef={aboutRef} sponsorsRef={sponsorsRef} faqRef={faqRef} page={page} executeScroll={(ref) => {executeScroll(ref)}}/>}/>
             <Route component={Error}/>
           </Switch>
         </CSSTransition>
