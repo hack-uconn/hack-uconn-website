@@ -29,9 +29,12 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "craco test",
     "eject": "react-scripts eject"
   },
+  "homepage": "http://hack-uconn.github.io/hack-uconn-website",
   "eslintConfig": {
     "extends": [
       "react-app",
