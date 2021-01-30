@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/hack-uconn-website/static/css/main.ee0cf7c1.chunk.css",
+    "main.js": "/hack-uconn-website/static/js/main.ebd43c01.chunk.js",
+    "main.js.map": "/hack-uconn-website/static/js/main.ebd43c01.chunk.js.map",
+    "runtime-main.js": "/hack-uconn-website/static/js/runtime-main.31f42a1f.js",
+    "runtime-main.js.map": "/hack-uconn-website/static/js/runtime-main.31f42a1f.js.map",
+    "static/js/2.b77093b4.chunk.js": "/hack-uconn-website/static/js/2.b77093b4.chunk.js",
+    "static/js/2.b77093b4.chunk.js.map": "/hack-uconn-website/static/js/2.b77093b4.chunk.js.map",
+    "static/js/3.2abd03c5.chunk.js": "/hack-uconn-website/static/js/3.2abd03c5.chunk.js",
+    "static/js/3.2abd03c5.chunk.js.map": "/hack-uconn-website/static/js/3.2abd03c5.chunk.js.map",
+    "index.html": "/hack-uconn-website/index.html",
+    "static/css/main.ee0cf7c1.chunk.css.map": "/hack-uconn-website/static/css/main.ee0cf7c1.chunk.css.map",
+    "static/js/2.b77093b4.chunk.js.LICENSE.txt": "/hack-uconn-website/static/js/2.b77093b4.chunk.js.LICENSE.txt",
+    "static/media/a1.9dfd2caa.jpg": "/hack-uconn-website/static/media/a1.9dfd2caa.jpg",
+    "static/media/a2.8b7f7ed7.jpg": "/hack-uconn-website/static/media/a2.8b7f7ed7.jpg",
+    "static/media/a3.c272e6b9.jpg": "/hack-uconn-website/static/media/a3.c272e6b9.jpg",
+    "static/media/a4.b322b241.jpg": "/hack-uconn-website/static/media/a4.b322b241.jpg",
+    "static/media/a5.18a409eb.jpg": "/hack-uconn-website/static/media/a5.18a409eb.jpg",
+    "static/media/a6.85f3d564.jpg": "/hack-uconn-website/static/media/a6.85f3d564.jpg",
+    "static/media/bigLogo.41022b5e.png": "/hack-uconn-website/static/media/bigLogo.41022b5e.png",
+    "static/media/instagramLogo.c012f481.png": "/hack-uconn-website/static/media/instagramLogo.c012f481.png",
+    "static/media/smallLogo.6988f2c9.png": "/hack-uconn-website/static/media/smallLogo.6988f2c9.png",
+    "static/media/sun.6c8416e9.png": "/hack-uconn-website/static/media/sun.6c8416e9.png",
+    "static/media/tree.9802fd7f.png": "/hack-uconn-website/static/media/tree.9802fd7f.png",
+    "static/media/water.87280c42.png": "/hack-uconn-website/static/media/water.87280c42.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.31f42a1f.js",
+    "static/js/2.b77093b4.chunk.js",
+    "static/css/main.ee0cf7c1.chunk.css",
+    "static/js/main.ebd43c01.chunk.js"
+  ]
+}
