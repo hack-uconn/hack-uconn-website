@@ -33,7 +33,7 @@ export default function Landing() {
                 <div className="flex flex-col w-full h-landingHeight bg-topic_dark">
                     <div className="flex w-4/5 h-3/5 m-auto">
                         <div className="flex justify-center items-center h-full m-auto">
-                            <img src={bigLogo} className="max-h-full"></img>
+                            <img alt="bigLogo" src={bigLogo} className="max-h-full"></img>
                         </div>
                     </div>
                     <div className="flex w-4/5 h-1/5 m-auto">
@@ -56,7 +56,7 @@ export default function Landing() {
             <div className="flex flex-col w-full h-landingHeight bg-topic_dark">
                 <div className="flex w-full h-3/5">
                     <ScrollAnimation animateOnce={true} animateIn="rollIn" animateOut="rollOut" className="flex justify-center items-center h-full m-auto">
-                        <img src={bigLogo} className="max-h-full"></img>
+                        <img alt="bigLogo" src={bigLogo} className="max-h-full"></img>
                     </ScrollAnimation>
                 </div>
                 <div className="flex w-full h-1/5">

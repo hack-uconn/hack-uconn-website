@@ -28,8 +28,13 @@ export default function Header(props) {
     const renderMenu = () => {
         if (showMenu) {
             return (
-                <div className="absolute top-20 right-0 w-full h-44 bg-header_menu z-50 shadow-2xl">
-                    <div className="flex flex-col w-3/4 h-full m-auto">
+                <div className="absolute top-20 right-0 w-full h-56 bg-header_menu z-50 shadow-2xl">
+                    <div className="flex flex-col w-full h-full m-auto">
+                        <div className="flex m-auto bg-header_mobile_register">
+                            <a target="_blank" rel="noreferrer" href="https://forms.gle/q3j7kLgcTwFMJozm6">
+                                <button className="text-text_light text-2xl font-primary focus:outline-none px-6 max-w-min h-full">Register</button>
+                            </a>
+                        </div>
                         <div className="flex m-auto">
                             <button onClick={() => {setShowMenu(false); props.executeScroll(props.aboutRef)}} className="text-text_light text-2xl font-primary focus:outline-none px-6 max-w-min h-full">About</button>
                         </div>
@@ -50,7 +55,7 @@ export default function Header(props) {
             <div className="flex flex-row w-full h-20 bg-uconn_primary shadow-2xl fixed z-50">
                 <div className="flex h-full justify-center m-auto">
                     <div className="flex items-center w-52 max-h-full m-auto">
-                        <img src={smallLogo} className="max-h-full max-w-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"></img>
+                        <img alt="smallLogo" src={smallLogo} className="max-h-full max-w-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"></img>
                     </div>
                 </div>
                 <div className="absolute right-6 top-8"> 
@@ -67,7 +72,7 @@ export default function Header(props) {
         <div className="flex flex-row w-full h-20 bg-uconn_primary shadow-2xl fixed z-50">
             <div className="flex h-full justify-left mr-auto">
                 <div className="flex items-center w-64 max-h-full pl-8">
-                    <img src={smallLogo} className="max-h-full max-w-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"></img>
+                    <img alt="smallLogo" src={smallLogo} className="max-h-full max-w-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"></img>
                 </div>
             </div>
             <div className="flex h-full flex-row"> 

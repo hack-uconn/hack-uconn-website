@@ -149,7 +149,7 @@ export default function Current() {
                             <ReactCardFlip isFlipped={selected === "schedule" || selected === "prizes"} flipDirection="horizontal" containerStyle={{width: "100%"}}>
                                 <ScrollAnimation animateIn="fadeInLeft" className="flex w-full h-full items-center justify-center flex-col m-auto">
                                     <div className="flex w-full h-full justify-center items-center">
-                                        <img src={aboutPic} className="w-full h-full"></img>
+                                        <img alt="about" src={aboutPic} className="w-full h-full"></img>
                                     </div>
                                 </ScrollAnimation>
                                 {setDescription("about")}
@@ -161,7 +161,7 @@ export default function Current() {
                             <ReactCardFlip isFlipped={selected === "about" || selected === "prizes"} flipDirection="horizontal" containerStyle={{width: "100%"}}>
                                 <ScrollAnimation animateIn="fadeInLeft" className="flex w-full h-full items-center justify-center flex-col m-auto">
                                     <div className="flex w-full h-full justify-center items-center">
-                                        <img src={schedulePic} className="w-full h-full"></img>
+                                        <img alt="schedule" src={schedulePic} className="w-full h-full"></img>
                                     </div>
                                 </ScrollAnimation>
                                 {setDescription("schedule")}
@@ -173,7 +173,7 @@ export default function Current() {
                             <ReactCardFlip isFlipped={selected === "about" || selected === "schedule"} flipDirection="horizontal" containerStyle={{width: "100%"}}>
                                 <ScrollAnimation animateIn="fadeInLeft" className="flex w-full h-full items-center justify-center flex-col m-auto">
                                     <div className="flex w-full h-full justify-center items-center">
-                                        <img src={prizesPic} className="w-full h-full"></img>
+                                        <img alt="prizes" src={prizesPic} className="w-full h-full"></img>
                                     </div>
                                 </ScrollAnimation>
                                 {setDescription("prizes")}

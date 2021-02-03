@@ -20,7 +20,8 @@ module.exports = {
         text_light: "#FFFFFF",
         text_dark: "#000000",
         header_btn: "#65FB7A",
-        header_menu: "#7E868C"
+        header_menu: "#7E868C",
+        header_mobile_register: "#BDC0C3"
       },
       fontFamily: {
         primary: ['"Caveat Brush"']
