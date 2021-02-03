@@ -1,55 +1,87 @@
 {
     "phrases": {
-        "aboutText": "About The Event Text Here...",
-        "scheduleText": "Schedule Text Here...",
-        "prizesText": "Prizes Text Here...",
-        "FAQText": "FAQ Text Here...",
-        "Questions":  [
-            {
-                "index": "1",
-                "question": "This is question 1",
-                "answer": "This is question 1 answer"
-            },
-            {
-                "index": "2",
-                "question": "This is question 2",
-                "answer": "This is question 2 answer"
-            },
-            {
-                "index": "3",
-                "question": "This is question 3",
-                "answer": "This is question 3 answer"
-            },
-            {
-                "index": "4",
-                "question": "This is question 4",
-                "answer": "This is question 4 answer"
-            },
-            {
-                "index": "5",
-                "question": "This is question 5",
-                "answer": "This is question 5 answer"
-            },
-            {
-                "index": "6",
-                "question": "This is question 6",
-                "answer": "This is question 6 answer"
-            },
-            {
-                "index": "7",
-                "question": "This is question 7",
-                "answer": "This is question 7 answer"
-            },
-            {
-                "index": "8",
-                "question": "This is question 8",
-                "answer": "This is question 8 answer"
-            },
-            {
-                "index": "9",
-                "question": "This is question 9",
-                "answer": "This is question 9 answer"
-            }
-        ]
+        "general": {
+            "kickoffDate": "March 13 2021 11:00",
+            "startDay": "March 13th",
+            "endDay": "March 14th",
+            "year": "2021"
+        },
+        "landing": {
+            "date": "March 13 2021 11:00"
+        },
+        "about": {
+            "title": "What is HackUConn?",
+            "description": "HackUConn Description Here..."
+        },
+        "current": {
+            "aboutdescription1": "About Description 1",
+            "aboutdescription2": "About Description 2",
+            "scheduledescription1": "Schedule Description 1",
+            "scheduledescription2": "Schedule Description 2",
+            "prizesdescription1": "Prizes Description 1",
+            "prizesdescription2": "Prizes Description 2"
+        },
+        "faq": {
+            "questions": [
+                {
+                    "index": "1",
+                    "question": "This is question 1",
+                    "answer": "This is question 1 answer"
+                },
+                {
+                    "index": "2",
+                    "question": "This is question 2",
+                    "answer": "This is question 2 answer"
+                },
+                {
+                    "index": "3",
+                    "question": "This is question 3",
+                    "answer": "This is question 3 answer"
+                },
+                {
+                    "index": "4",
+                    "question": "This is question 4",
+                    "answer": "This is question 4 answer"
+                },
+                {
+                    "index": "5",
+                    "question": "This is question 5",
+                    "answer": "This is question 5 answer"
+                },
+                {
+                    "index": "6",
+                    "question": "This is question 6",
+                    "answer": "This is question 6 answer"
+                },
+                {
+                    "index": "7",
+                    "question": "This is question 7",
+                    "answer": "This is question 7 answer"
+                },
+                {
+                    "index": "8",
+                    "question": "This is question 8",
+                    "answer": "This is question 8 answer"
+                },
+                {
+                    "index": "9",
+                    "question": "This is question 9",
+                    "answer": "This is question 9 answer"
+                }
+            ]
+        },
+        "sponsors": {
+            "highestLevelTitle": "Lead Sponsors",
+            "middleLevelTitle": "Gold Sponsors",
+            "smallestLevelTitle": "Silver Sponsors"
+        },
+        "header": {
+            "registrationLink": "",
+            "submitLink": ""
+        },
+        "footer": {
+            "instagramLink": "",
+            "facebookLink": ""
+        }
     }
 }

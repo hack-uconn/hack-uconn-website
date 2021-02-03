@@ -13,7 +13,7 @@ export default function FAQ(props) {
         return `sm:w-2 md:w-4 sm:h-2 md:h-4 ${currentSelect.includes(year) ? " transition duration-500 transform -rotate-180" : " transition duration-500 transform rotate-0"}`;
     }
 
-    const questions = phrases.Questions.map((obj) => {
+    const questions = phrases.faq.questions.map((obj) => {
         return (
             <ScrollAnimation animateIn="fadeInDown" delay={obj.index * 100} className="flex w-full items-center justify-center flex-col">
                 <AccordionItem uuid={obj.index} className="flex justify-center flex-col border-b-2 border-topic_dark w-full">

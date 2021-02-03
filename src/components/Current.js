@@ -1,4 +1,4 @@
-//import { phrases } from '../text.json';
+import { phrases } from '../text.json';
 import { useState } from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import aboutPic from '../assets/tree.png';
@@ -49,7 +49,7 @@ export default function Current() {
                     <div className="flex w-full h-full items-center justify-center flex-col m-auto bg-topic_current_about_card rounded-lg shadow-2xl border-8 border-black">
                         <div className="flex w-full h-full justify-center items-center">
                             <div className="flex w-full h-full justify-center items-center">
-                                <text className="aboutText text-lg lg:text-2xl text-text_dark text-center">About Description</text>
+                                <text className="aboutText text-lg lg:text-2xl text-text_dark text-center">{phrases.current.aboutdescription1}</text>
                             </div>
                         </div>
                     </div>
@@ -60,7 +60,7 @@ export default function Current() {
                     <div className="flex w-full h-full items-center justify-center flex-col m-auto bg-topic_current_about_card rounded-lg shadow-2xl border-8 border-black">
                         <div className="flex w-full h-full justify-center items-center">
                             <div className="flex w-full h-full justify-center items-center">
-                                <text className="aboutText text-lg lg:text-2xl text-text_dark text-center">About Description</text>
+                                <text className="aboutText text-lg lg:text-2xl text-text_dark text-center">{phrases.current.aboutdescription2}</text>
                             </div>
                         </div>
                     </div>
@@ -73,7 +73,7 @@ export default function Current() {
                     <div className="flex w-full h-full items-center justify-center flex-col m-auto bg-topic_current_schedule_card rounded-lg shadow-2xl border-8 border-black">
                         <div className="flex w-full h-full justify-center items-center">
                             <div className="flex w-full h-full justify-center items-center">
-                                <text className="aboutText text-lg lg:text-2xl text-text_dark text-center">Schedule Description</text>
+                                <text className="aboutText text-lg lg:text-2xl text-text_dark text-center">{phrases.current.scheduledescription1}</text>
                             </div>
                         </div>
                     </div>
@@ -84,7 +84,7 @@ export default function Current() {
                     <div className="flex w-full h-full items-center justify-center flex-col m-auto bg-topic_current_schedule_card rounded-lg shadow-2xl border-8 border-black">
                         <div className="flex w-full h-full justify-center items-center">
                             <div className="flex w-full h-full justify-center items-center">
-                                <text className="aboutText text-lg lg:text-2xl text-text_dark text-center">Schedule Description</text>
+                                <text className="aboutText text-lg lg:text-2xl text-text_dark text-center">{phrases.current.scheduledescription2}</text>
                             </div>
                         </div>
                     </div>
@@ -97,7 +97,7 @@ export default function Current() {
                     <div className="flex w-full h-full items-center justify-center flex-col m-auto bg-topic_current_prizes_card rounded-lg shadow-2xl border-8 border-black">
                         <div className="flex w-full h-full justify-center items-center">
                             <div className="flex w-full h-full justify-center items-center">
-                                <text className="aboutText text-lg lg:text-2xl text-text_dark text-center">Prizes Description</text>
+                                <text className="aboutText text-lg lg:text-2xl text-text_dark text-center">{phrases.current.prizesdescription1}</text>
                             </div>
                         </div>
                     </div>
@@ -108,7 +108,7 @@ export default function Current() {
                     <div className="flex w-full h-full items-center justify-center flex-col m-auto bg-topic_current_prizes_card rounded-lg shadow-2xl border-8 border-black">
                         <div className="flex w-full h-full justify-center items-center">
                             <div className="flex w-full h-full justify-center items-center">
-                                <text className="aboutText text-lg lg:text-2xl text-text_dark text-center">Prizes Description</text>
+                                <text className="aboutText text-lg lg:text-2xl text-text_dark text-center">{phrases.current.prizesdescription2}</text>
                             </div>
                         </div>
                     </div>
@@ -126,10 +126,10 @@ export default function Current() {
             <div className="flex flex-col justify-center h-full">
                 <ScrollAnimation animateIn="fadeInDown" className="flex w-full items-center justify-center flex-col">
                     <div className="flex justify-center pb-4">
-                        <text className="text-5xl md:text-6xl lg:text-7xl text-text_dark font-primary">HackUConn 2021</text>
+                        <text className="text-5xl md:text-6xl lg:text-7xl text-text_dark font-primary">{"HackUConn " + phrases.general.year}</text>
                     </div>
                     <div className="flex justify-center">
-                        <text className="text-2xl md:text-3xl text-text_dark font-primary">March 13th - March 14th</text>
+                        <text className="text-2xl md:text-3xl text-text_dark font-primary">{phrases.general.startDay + " - " + phrases.general.endDay}</text>
                     </div>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInDown" className="flex flex-row w-full md:w-aboutTabsWidth h-24 md:h-auto mt-12 mb-20 md:m-auto p-0 md:p-6 justify-center items-center bg-topic_secondary opacity-90 rounded-lg shadow-2xl bg-topic_current_header border-8 border-black">
