@@ -1,7 +1,7 @@
-import { Switch, Route, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import './App.css';
 import Home from './components/Home';
-import Error from './components/Error';
+//import Error from './components/Error';
 import { useEffect, useRef, useState } from 'react';
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 
@@ -28,10 +28,7 @@ function App() {
     <main className="w-max-screen-2xl">
       <TransitionGroup>
         <CSSTransition key={location.key} classNames="fade" timeout={4000}>
-          <Switch>
-            <Route path='/' exact render={(props) => <Home {...props} aboutRef={aboutRef} sponsorsRef={sponsorsRef} faqRef={faqRef} page={page} executeScroll={(ref) => {executeScroll(ref)}}/>}/>
-            <Route component={Error}/>
-          </Switch>
+          <Home aboutRef={aboutRef} sponsorsRef={sponsorsRef} faqRef={faqRef} page={page} executeScroll={(ref) => {executeScroll(ref)}}/>
         </CSSTransition>
       </TransitionGroup>
     </main>
