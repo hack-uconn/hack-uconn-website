@@ -35,7 +35,7 @@
     "test": "craco test",
     "eject": "react-scripts eject"
   },
-  "homepage": "http://hack-uconn.github.io/hack-uconn-website",
+  "homepage": "https://hackuconn.com",
   "eslintConfig": {
     "extends": [
       "react-app",
