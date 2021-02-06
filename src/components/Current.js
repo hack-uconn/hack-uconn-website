@@ -193,6 +193,19 @@ export default function Current() {
         }
     }
 
+    const returnDayStyle = (day) => {
+        if (day === selectDay) {
+            return (
+                "lightTextAbout text-xl text-justify transition duration-500 ease-in-out transform -translate-y-1 scale-110"
+            );
+        }
+        else {
+            return (
+                "lightTextAbout text-xl text-justify transition duration-500 ease-in-out transform translate-y-0 hover:scale-100"
+            );
+        }
+    }
+
     if (isMobile) {
         let body = null;
         if (selected === "about") {
@@ -207,7 +220,7 @@ export default function Current() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex w-64 h-currentMobileHeight md:h-currentHeight items-center justify-center flex-col m-auto bg-topic_current_about_card rounded-lg shadow-2xl border-8 border-black">
+                    <div className="flex w-64 h-currentMobileHeight md:h-currentHeight items-center justify-center flex-col m-auto bg-topic_current_about_card rounded-lg shadow-lg border-8 border-black">
                         <div className="flex w-full h-full justify-center items-center">
                             <div className="flex flex-col w-11/12 h-11/12 m-auto justify-center items-center">
                                 <div className="flex flex-row justify-center items-start pt-2">
@@ -257,20 +270,20 @@ export default function Current() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex w-64 h-currentMobileHeight md:h-currentHeight items-center justify-center flex-col m-auto bg-topic_current_schedule_card rounded-lg shadow-2xl border-8 border-black">
+                    <div className="flex w-64 h-currentMobileHeight md:h-currentHeight items-center justify-center flex-col m-auto bg-topic_current_schedule_card rounded-lg shadow-lg border-8 border-black">
                         <div className="flex w-full h-full justify-center items-center">
                             <div className="flex flex-col w-full h-full m-auto justify-center items-center">
                                 <div className="flex flex-row w-full h-20 bg-topic_current_schedule_card_header">
                                     <div className="flex w-full h-20 justify-center items-center">
-                                        <text onClick={() => {setSelectDay("day1")}} className="lightTextAbout text-xl text-justify transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">Day 1</text>
+                                        <text onClick={() => {setSelectDay("day1")}} className={returnDayStyle("day1")}>Day 1</text>
                                     </div>
                                     <div className="flex w-full h-20 justify-center items-center">
-                                        <text onClick={() => {setSelectDay("day2")}} className="lightTextAbout text-xl text-justify transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">Day 2</text>
+                                        <text onClick={() => {setSelectDay("day2")}} className={returnDayStyle("day2")}>Day 2</text>
                                     </div>
                                 </div>
                                 <div className="flex flex-col max-w-full max-h-full m-auto justify-center items-center">
                                     <div className="flex w-full h-full object-contain justify-center items-center">
-                                        <img alt="scheduleMobile1" src={selectDay === "day1" ? day1Pic : day2Pic} className="max-w-full max-h-80"></img>
+                                        <img alt="scheduleMobile1" src={selectDay === "day1" ? day1Pic : day2Pic} className="max-w-full max-h-currentMaxHeight"></img>
                                     </div>
                                 </div>
                             </div>
@@ -291,7 +304,7 @@ export default function Current() {
                             </div>
                         </div>
                     </div>
-                    <div className="flex w-64 h-currentMobileHeight md:h-currentHeight items-center justify-center flex-col m-auto bg-topic_current_prizes_card rounded-lg shadow-2xl border-8 border-black">
+                    <div className="flex w-64 h-currentMobileHeight md:h-currentHeight items-center justify-center flex-col m-auto bg-topic_current_prizes_card rounded-lg shadow-lg border-8 border-black">
                         <div className="flex w-full h-full justify-center items-center">
                             <div className="flex flex-col w-11/12 h-full m-auto justify-center items-center">
                                 <div className="flex flex-col w-full h-1/2 justify-center items-center">
@@ -387,7 +400,7 @@ export default function Current() {
                             <text className="text-2xl md:text-3xl text-text_dark font-primary">{phrases.general.startDay + " - " + phrases.general.endDay}</text>
                         </div>
                     </ScrollAnimation>
-                    <ScrollAnimation animateIn="fadeInDown" animateOnce={true} className="flex flex-row w-full md:w-aboutTabsWidth h-24 md:h-auto mt-12 mb-20 md:m-auto p-0 md:p-6 justify-center items-center bg-topic_secondary opacity-90 rounded-lg shadow-2xl bg-topic_current_header border-8 border-black">
+                    <ScrollAnimation animateIn="fadeInDown" animateOnce={true} className="flex flex-row w-full md:w-aboutTabsWidth h-24 md:h-auto mt-12 mb-0 md:m-auto p-0 md:p-6 justify-center items-center bg-topic_secondary opacity-90 rounded-lg shadow-2xl bg-topic_current_header border-8 border-black">
                         <button onClick={() => {selected === "about" ? updateSelected(null) : updateSelected("about")}} className={setCurrentHeader("about", "scale")}>
                             <text className={setCurrentHeader("about", "text")}>About</text>
                         </button>
