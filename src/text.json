@@ -47,48 +47,48 @@
             "questions": [
                 {
                     "index": "1",
-                    "question": "This is question 1",
-                    "answer": "This is question 1 answer"
+                    "question": "What is a hackathon?",
+                    "answer": "A hackathon is a multi-day event where students from all over the world can come together to build projects that have the potential to change the world. The great thing about hackathons is that they teach students about software and hardware development while also allowing them to explore their creativity and ideas with no limits. By the end, students will learn new skills and make valuable connections for the future."
                 },
                 {
                     "index": "2",
-                    "question": "This is question 2",
-                    "answer": "This is question 2 answer"
+                    "question": "When and where is it?",
+                    "answer": " HackUconn will be taking place fully online on March 13th and 14th, 2021. Details on how to access the corresponding materials will be given closer to the date of the event."
                 },
                 {
                     "index": "3",
-                    "question": "This is question 3",
-                    "answer": "This is question 3 answer"
+                    "question": "Who can participate?",
+                    "answer": "Students of all majors from any school are welcome to participate! Even if you don’t have any coding experience, there will still be plenty of opportunities for you to make a contribution and have a chance to win!"
                 },
                 {
                     "index": "4",
-                    "question": "This is question 4",
-                    "answer": "This is question 4 answer"
+                    "question": "How much does it cost?",
+                    "answer": "HackUConn is completely free! Not only is the event costless, but you will also receive some cool swag if you participate!"
                 },
                 {
                     "index": "5",
-                    "question": "This is question 5",
-                    "answer": "This is question 5 answer"
+                    "question": "What do I need?",
+                    "answer": "Since this year HackUConn will be virtual, all you need is a device that connects to the internet and 24 hours dedicated to the competition! We will also be using Zoom and Discord, so being familiar with those platforms is a plus."
                 },
                 {
                     "index": "6",
-                    "question": "This is question 6",
-                    "answer": "This is question 6 answer"
+                    "question": "What is the theme of this year's HackUConn?",
+                    "answer": "This year's competition completely revolves around environmental sustainability. The goal is to make sure that everyone involved, regardless of their major or background, can succeed in the competition!"
                 },
                 {
                     "index": "7",
-                    "question": "This is question 7",
-                    "answer": "This is question 7 answer"
+                    "question": "Will there be prizes?",
+                    "answer": "Yep! Each team will have a chance to compete for one of our coveted prizes. Check them out above!"
                 },
                 {
                     "index": "8",
-                    "question": "This is question 8",
-                    "answer": "This is question 8 answer"
+                    "question": "How do I go about creating/finding a team?",
+                    "answer": "Overall team size is limited to 5 people max. If you are coming with a team, make sure to state that in the registration form. If you don’t have a team, that’s no problem! We will have team forming events before we kickoff, so check those out on the schedule! "
                 },
                 {
                     "index": "9",
-                    "question": "This is question 9",
-                    "answer": "This is question 9 answer"
+                    "question": "How do I register?",
+                    "answer": "If registration is open, there should be a button at the top of the website called 'registration'. That will link you to our registration page. If it is not there, registrations are unfortunately closed, but feel free to keep checking for our next event!"
                 }
             ]
         },

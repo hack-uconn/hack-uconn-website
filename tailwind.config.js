@@ -27,6 +27,10 @@ module.exports = {
       fontFamily: {
         primary: ['"Caveat Brush"']
       },
+      fontSize: {
+        mobileSmallFAQText: ['0.55rem', '0.55rem'],
+        mobileMediumFAQText: ['0.7rem', '0.7rem']
+      },
       height: theme => ({
         "landingHeight": "calc(100vh - 5rem)",
         "currentHeight": "36rem",

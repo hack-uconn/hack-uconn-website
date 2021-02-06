@@ -24,6 +24,12 @@
     text-shadow: 3px 5px 2px #474747, 0px 0px 10px #000000;
 }
 
+.lightTextFAQAnswer {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    text-shadow: 3px 5px 2px #474747, 0px 0px 10px #000000;
+}
+
 .darkText {
     font-family: 'Quicksand', sans-serif;
     color: black;
