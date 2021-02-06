@@ -34,7 +34,7 @@ export default function Sponsors(props) {
     });
 
     return (
-        <div ref={props.sponsorsRef} className="flex w-full h-landingHeight flex-col">
+        <div ref={props.sponsorsRef} className="flex w-full flex-col">
             <div className="flex flex-col justify-center w-full lg:w-sponsorWidth h-full lg:m-auto">
                 <div className="flex flex-col justify-center w-full lg:mx-auto h-full">
                     <ScrollAnimation animateIn="fadeInTop" animateOnce={true} className="flex justify-center items-center flex-col w-full h-32 md:h-full">

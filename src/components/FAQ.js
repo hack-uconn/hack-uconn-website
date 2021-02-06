@@ -73,7 +73,7 @@ export default function FAQ(props) {
     });
 
     return (
-        <div ref={props.faqRef} className="flex w-full h-landingHeight mx-app flex-col">
+        <div ref={props.faqRef} className="flex w-full mx-app flex-col">
             <ScrollAnimation animateIn="fadeInTop" animateOnce={true} className="flex justify-center items-center flex-col w-full h-24 m-auto">
                 <div className="flex justify-center items-center m-auto">
                     <text className="text-6xl lg:text-7xl text-center text-text_dark font-primary">FAQ</text>
