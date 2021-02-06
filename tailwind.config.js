@@ -28,6 +28,7 @@ module.exports = {
         primary: ['"Caveat Brush"']
       },
       fontSize: {
+        aboutDescriptionMobile: ['0.6rem', '0.5rem'],
         mobileSmallFAQText: ['0.55rem', '0.55rem'],
         mobileMediumFAQText: ['0.7rem', '0.7rem']
       },

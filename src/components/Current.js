@@ -250,7 +250,7 @@ export default function Current() {
                                     </div>
                                 </div>
                                 <div>
-                                    <text className="lightTextAboutMobile md:lightTextAbout text-xs md:text-lg lg:text-xl text-justify">{phrases.current.aboutdescription1}</text>
+                                    <text className="lightTextAboutMobile md:lightTextAbout text-aboutDescriptionMobile md:text-lg lg:text-xl text-justify">{phrases.current.aboutdescription1}</text>
                                 </div>
                             </div>
                         </div>
