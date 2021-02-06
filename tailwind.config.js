@@ -34,12 +34,12 @@ module.exports = {
       height: theme => ({
         "landingHeight": "calc(100vh - 5rem)",
         "currentHeight": "36rem",
-        "currentMobileHeight": "28rem",
+        "currentMobileHeight": "26rem",
         "landingLogoHeight": "34rem",
         "currentScheduleDay1Height": "30rem" 
       }),
       maxHeight: {
-        "currentMaxHeight": "22rem"
+        "currentMaxHeight": "20rem"
       },
       margin: {
         "app": "6%"
