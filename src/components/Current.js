@@ -390,7 +390,7 @@ export default function Current() {
             );
         }
         return (
-            <div className="flex w-full h-landingHeight mx-app flex-col">
+            <div className="flex w-full mx-app flex-col">
                 <div className="flex flex-col justify-center h-full">
                     <ScrollAnimation animateIn="fadeInDown" animateOnce={true} className="flex w-full items-center justify-center flex-col">
                         <div className="flex justify-center pb-4">
@@ -411,7 +411,7 @@ export default function Current() {
                             <text className={setCurrentHeader("prizes", "text")}>Prizes</text>
                         </button>
                     </ScrollAnimation>
-                    <div className="flex flex-row justify-center items-center mt-0 mb-auto md:my-auto md:w-full h-full md:h-currentHeight">
+                    <div className="flex flex-row justify-center items-center mt-0 mb-auto md:my-auto md:w-full h-currentHeight">
                         {body}
                     </div>
                 </div>
