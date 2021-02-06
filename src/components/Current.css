@@ -1,11 +1,39 @@
-.aboutText {
+.lightText {
     font-family: 'Quicksand', sans-serif;
     color: white;
     text-shadow: 3px 5px 2px #474747, 0px 0px 10px #000000;
 }
 
-.aboutTextSelected {
+.lightTextSelected {
     font-family: 'Quicksand', sans-serif;
     color: #cce2b9;
     text-shadow: 3px 5px 2px #474747, 0px 0px 10px #000000;
+}
+
+.lightTextAbout {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    line-height: 1.3;
+    text-shadow: 3px 5px 2px #474747, 0px 0px 10px #000000;
+}
+
+.lightTextAboutMobile {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    line-height: 0.8;
+    text-shadow: 3px 5px 2px #474747, 0px 0px 10px #000000;
+}
+
+.darkText {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    line-height: 1.8;
+    /* text-shadow: 3px 5px 2px white, 0px 0px 10px white; */ 
+}
+
+.darkTextMobile {
+    font-family: 'Quicksand', sans-serif;
+    color: black;
+    line-height: 1.2;
+    /* text-shadow: 3px 5px 2px white, 0px 0px 10px white; */ 
 }

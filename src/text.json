@@ -4,22 +4,44 @@
             "kickoffDate": "March 13 2021 11:00",
             "startDay": "March 13th",
             "endDay": "March 14th",
-            "year": "2021"
+            "year": "2021",
+            "email": "hackuconn@gmail.com"
         },
         "landing": {
+            "title": "Countdown to HackUConn 2021",
             "date": "March 13 2021 11:00"
         },
         "about": {
             "title": "What is HackUConn?",
-            "description": "HackUConn Description Here..."
+            "description": "HackUConn is a 24-hour marathon event that brings together students of all disciplines in hopes of finding innovative solutions for today’s biggest problems. Students are provided mentoring and workshops from industry professionals and are tasked with bringing their solutions to life. Not a programmer or a coder? No problem! HackUConn tasks teams and individuals with providing any solution to the given topic, ranging from applications to material prototypes to strategic plans and more. At HackUConn, there’s a spot for everyone!"
         },
         "current": {
-            "aboutdescription1": "About Description 1",
-            "aboutdescription2": "About Description 2",
+            "aboutdescription1": "In a world where climate change is more important than ever, we decided that the topic of sustainability would be an amazing opportunity for students of all majors to showcase their creativity. Students will have to come up with a solution to a specific problem based on several topics (TBD) through collaboration, innovation, and development. If you want the chance to broadcast your knowledge to the public on what YOU think can be done to help create a sustainable future, then HackUConn is for you!",
+            "aboutdescription2": {
+                "date": "March 13 to March 14th",
+                "time": "10am Saturday to 3pm Sunday",
+                "location": "Virtually via Zoom & Discord"
+            },
             "scheduledescription1": "Schedule Description 1",
             "scheduledescription2": "Schedule Description 2",
-            "prizesdescription1": "Prizes Description 1",
-            "prizesdescription2": "Prizes Description 2"
+            "prizesdescription1": {
+                "first": {
+                    "title": "First",
+                    "description": "$2500 up to $500 per participant"
+                },
+                "second": {
+                    "title": "Second",
+                    "description": "$2000 up to $400 per participant"
+                },
+                "third": {
+                    "title": "Third",
+                    "description": "$1000 up to $200 per participant"
+                }
+            },
+            "prizesdescription2": {
+                "title": "Category Prizes",
+                "description": "Coming soon!"
+            }
         },
         "faq": {
             "questions": [
@@ -73,15 +95,15 @@
         "sponsors": {
             "highestLevelTitle": "Lead Sponsors",
             "middleLevelTitle": "Gold Sponsors",
-            "smallestLevelTitle": "Silver Sponsors"
+            "lowestLevelTitle": "Silver Sponsors"
         },
         "header": {
-            "registrationLink": "",
+            "registrationLink": "https://forms.gle/q3j7kLgcTwFMJozm6",
             "submitLink": ""
         },
         "footer": {
-            "instagramLink": "",
-            "facebookLink": ""
+            "instagramLink": "https://www.instagram.com/hackuconn/",
+            "facebookLink": "https://www.facebook.com/hackuconn/"
         }
     }
 }
