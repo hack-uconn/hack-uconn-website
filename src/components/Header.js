@@ -1,7 +1,6 @@
 import smallLogo from '../assets/header/smallLogo.png';
 import menuImage from '../assets/header/menu.png';
 import exitImage from '../assets/header/exit.png';
-import { phrases } from "../text.json";
 import "./Current.css";
 import {isMobile} from 'react-device-detect';
 import { useState } from 'react';

@@ -1,6 +1,8 @@
 import { phrases } from '../text.json';
 import "./Current.css";
-import bigLogo from '../assets/landing/bigLogo.png';
+import gearPic from '../assets/landing/gearPic.png';
+import earthPic from '../assets/landing/earthPic.png';
+import textPic from '../assets/landing/textPic.png';
 import Countdown from 'react-countdown';
 import {isMobile} from 'react-device-detect';
 import ScrollAnimation from 'react-animate-on-scroll';
@@ -35,7 +37,17 @@ export default function Landing() {
                 <div className="flex flex-col w-full h-landingHeight bg-topic_dark">
                     <div className="flex w-4/5 h-3/5 m-auto">
                         <div className="flex justify-center items-center h-full m-auto">
-                            <img alt="bigLogo" src={bigLogo} className="max-h-full"></img>
+                            <div className="relative">
+                                <ScrollAnimation animateIn={"slideInLeft"} animateOnce={true} className="relative w-full h-full z-0">
+                                    <img alt="gear" src={gearPic} className="relative max-h-landingLogoHeight rotate-gears z-0"></img>
+                                </ScrollAnimation>
+                                <ScrollAnimation delay={"200"} animateIn={"slideInRight"} animateOnce={true} className="absolute top-0 w-full h-full z-1">
+                                    <img alt="earth" src={earthPic} className="absolute top-0 max-h-full rotate-earth z-1"></img>
+                                </ScrollAnimation>
+                                <ScrollAnimation delay={"500"} animateIn={"bounceInDown"} animateOnce={true} className="absolute top-0 w-full h-full z-2 text-logo-background">
+                                    <img alt="text" src={textPic} className="absolute top-0 max-h-full z-2 text-logo"></img>
+                                </ScrollAnimation>
+                            </div>
                         </div>
                     </div>
                     <div className="flex w-4/5 h-1/5 m-auto">
@@ -57,9 +69,19 @@ export default function Landing() {
         <div className="flex flex-col w-full bg-topic_dark">
             <div className="flex flex-col w-full h-landingHeight bg-topic_dark">
                 <div className="flex w-full h-4/6">
-                    <ScrollAnimation animateOnce={true} animateIn="rollIn" animateOut="rollOut" className="flex justify-center items-center h-landingLogoHeight m-auto">
-                        <img alt="bigLogo" src={bigLogo} className="max-h-full"></img>
-                    </ScrollAnimation>
+                    <div className="flex justify-center items-center h-landingLogoHeight m-auto">
+                        <div className="relative">
+                            <ScrollAnimation animateIn={"slideInLeft"} animateOnce={true} className="relative w-full h-landingLogoHeight z-0">
+                                <img alt="gear" src={gearPic} className="relative max-h-landingLogoHeight rotate-gears z-0"></img>
+                            </ScrollAnimation>
+                            <ScrollAnimation delay={"200"} animateIn={"slideInRight"} animateOnce={true} className="absolute top-0 w-full h-full z-1">
+                                <img alt="earth" src={earthPic} className="absolute top-0 max-h-full rotate-earth z-1"></img>
+                            </ScrollAnimation>
+                            <ScrollAnimation delay={"500"} animateIn={"bounceInDown"} animateOnce={true} className="absolute top-0 w-full h-full z-2 text-logo-background">
+                                <img alt="text" src={textPic} className="absolute top-0 max-h-full z-2 text-logo"></img>
+                            </ScrollAnimation>
+                        </div>
+                    </div>
                 </div>
                 <div className="flex w-full h-1/6">
                     <div className="flex justify-center items-center m-auto">
@@ -71,6 +93,6 @@ export default function Landing() {
                 </div>
             </div>
             <div className="flex w-full h-12 mt-12 bg-gradient-to-b from-topic_dark to-topic_primary"></div>
-        </div>
+        </div> 
     );
 }

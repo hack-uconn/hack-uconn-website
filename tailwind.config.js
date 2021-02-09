@@ -40,7 +40,8 @@ module.exports = {
         "currentScheduleDay1Height": "30rem" 
       }),
       maxHeight: {
-        "currentMaxHeight": "20rem"
+        "currentMaxHeight": "20rem",
+        "landingLogoHeight": "34rem",
       },
       margin: {
         "app": "6%"

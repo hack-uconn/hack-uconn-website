@@ -1,4 +1,5 @@
 import { phrases } from '../text.json';
+import './Current.css';
 import instaLogo from '../assets/footer/instagramLogo.png';
 import facebookLogo from '../assets/footer/facebookLogo.png';
 
@@ -19,12 +20,12 @@ export default function Footer() {
                     </div>
                 </div>
                 <div className="flex items-center justify-center pb-2">
-                    <text className="text-2xl text-text_light font-primary">University of Connecticut</text>
+                    <text className="text-xl md:text-2xl lightText">University of Connecticut</text>
                 </div>
                 <div className="flex items-center justify-center">
-                    <text className="text-2xl text-text_light font-primary">Contact us at</text>
+                    <text className="text-xl md:text-2xl lightText">Contact us at</text>
                     &nbsp;
-                    <a className="text-2xl text-text_light font-primary hover:text-topic_dark transition duration-200 ease-in-out lg:z-50" href={"mailto: " + phrases.general.email}>{phrases.general.email}</a>
+                    <a className=" text-xl md:text-2xl lightTextFooter transition duration-200 ease-in-out lg:z-50" href={"mailto: " + phrases.general.email}>{phrases.general.email}</a>
                 </div>
             </div>
         </footer>
