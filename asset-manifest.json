@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.832dcc7b.chunk.css",
-    "main.js": "/static/js/main.c93db474.chunk.js",
-    "main.js.map": "/static/js/main.c93db474.chunk.js.map",
+    "main.css": "/static/css/main.2336e43c.chunk.css",
+    "main.js": "/static/js/main.9b5cd8ec.chunk.js",
+    "main.js.map": "/static/js/main.9b5cd8ec.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c346ce65.js",
     "runtime-main.js.map": "/static/js/runtime-main.c346ce65.js.map",
     "static/js/2.1aa14efb.chunk.js": "/static/js/2.1aa14efb.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.433af3b4.chunk.js": "/static/js/3.433af3b4.chunk.js",
     "static/js/3.433af3b4.chunk.js.map": "/static/js/3.433af3b4.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.832dcc7b.chunk.css.map": "/static/css/main.832dcc7b.chunk.css.map",
+    "static/css/main.2336e43c.chunk.css.map": "/static/css/main.2336e43c.chunk.css.map",
     "static/js/2.1aa14efb.chunk.js.LICENSE.txt": "/static/js/2.1aa14efb.chunk.js.LICENSE.txt",
     "static/media/a1.jpg": "/static/media/a1.9dfd2caa.jpg",
     "static/media/a2.jpg": "/static/media/a2.8b7f7ed7.jpg",
@@ -19,21 +19,23 @@
     "static/media/a5.jpg": "/static/media/a5.18a409eb.jpg",
     "static/media/a6.jpg": "/static/media/a6.85f3d564.jpg",
     "static/media/about.9802fd7f.png": "/static/media/about.9802fd7f.png",
-    "static/media/bigLogo.41022b5e.png": "/static/media/bigLogo.41022b5e.png",
     "static/media/cigna.png": "/static/media/cigna.f8054ebc.png",
     "static/media/day1.c3565ed1.png": "/static/media/day1.c3565ed1.png",
     "static/media/day2.706dd657.png": "/static/media/day2.706dd657.png",
+    "static/media/earthPic.5e64b74a.png": "/static/media/earthPic.5e64b74a.png",
     "static/media/gawlicki.jpg": "/static/media/gawlicki.12412b5d.jpg",
+    "static/media/gearPic.37b53854.png": "/static/media/gearPic.37b53854.png",
     "static/media/instagramLogo.c012f481.png": "/static/media/instagramLogo.c012f481.png",
     "static/media/prizes.6c8416e9.png": "/static/media/prizes.6c8416e9.png",
     "static/media/schedule.87280c42.png": "/static/media/schedule.87280c42.png",
     "static/media/smallLogo.6988f2c9.png": "/static/media/smallLogo.6988f2c9.png",
+    "static/media/textPic.5f80c8ae.png": "/static/media/textPic.5f80c8ae.png",
     "static/media/thehartford.png": "/static/media/thehartford.f21f289b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c346ce65.js",
     "static/js/2.1aa14efb.chunk.js",
-    "static/css/main.832dcc7b.chunk.css",
-    "static/js/main.c93db474.chunk.js"
+    "static/css/main.2336e43c.chunk.css",
+    "static/js/main.9b5cd8ec.chunk.js"
   ]
 }
