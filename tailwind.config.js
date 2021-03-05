@@ -16,8 +16,10 @@ module.exports = {
         topic_current_schedule_card: "#2BC6F6",
         topic_current_schedule_card_header: "#28A9D1",
         topic_current_prizes_card: "#828282",
+        topic_sponsor_lighter: "#617F36",
         topic_sponsor_middle: "#546D2E",
-        topic_sponsor_dark: "#38491F",
+        topic_sponsor_dark: "#465B27",
+        topic_sponsor_darker: "#38491F",
         text_light: "#FFFFFF",
         text_dark: "#000000",
         header_btn: "#65FB7A",
@@ -36,8 +38,10 @@ module.exports = {
         "landingHeight": "calc(100vh - 5rem)",
         "currentHeight": "36rem",
         "currentMobileHeight": "26rem",
+        "currentBodyMobileHeight": "28rem",
         "landingLogoHeight": "34rem",
-        "currentScheduleDay1Height": "30rem" 
+        "currentScheduleDay1Height": "30rem",
+        "sponsorHeight": "38rem" 
       }),
       maxHeight: {
         "currentMaxHeight": "20rem",

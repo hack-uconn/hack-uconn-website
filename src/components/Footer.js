@@ -25,7 +25,7 @@ export default function Footer() {
                 <div className="flex items-center justify-center">
                     <text className="text-xl md:text-2xl lightText">Contact us at</text>
                     &nbsp;
-                    <a className=" text-xl md:text-2xl lightTextFooter transition duration-200 ease-in-out lg:z-50" href={"mailto: " + phrases.general.email}>{phrases.general.email}</a>
+                    <a className="text-xl md:text-2xl lightTextFooter transition duration-200 ease-in-out lg:z-50" href={"mailto: " + phrases.general.email}>{phrases.general.email}</a>
                 </div>
             </div>
         </footer>

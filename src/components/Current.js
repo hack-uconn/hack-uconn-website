@@ -411,7 +411,7 @@ export default function Current() {
                             <text className={setCurrentHeader("prizes", "text")}>Prizes</text>
                         </button>
                     </ScrollAnimation>
-                    <div className="flex flex-row justify-center items-center mt-0 mb-auto md:my-auto md:w-full h-currentHeight">
+                    <div className="flex flex-row justify-center items-center mt-0 mb-auto md:my-auto md:w-full h-currentBodyMobileHeight">
                         {body}
                     </div>
                 </div>

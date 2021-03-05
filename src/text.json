@@ -89,16 +89,38 @@
                     "index": "9",
                     "question": "How do I register?",
                     "answer": "If registration is open, there should be a button at the top of the website called 'registration'. That will link you to our registration page. If it is not there, registrations are unfortunately closed, but feel free to keep checking for our next event!"
+                },
+                {
+                    "index": "10",
+                    "question": "When can I start hacking?",
+                    "answer": "Hacking can only be done during the annouced hacking period. Also note that no prior work/projects can be brought in."
                 }
             ]
         },
         "sponsors": {
             "highestLevelTitle": "Lead Sponsors",
             "middleLevelTitle": "Gold Sponsors",
-            "lowestLevelTitle": "Silver Sponsors"
+            "lowestLevelTitle": "Silver Sponsors",
+            "partnersTitle": "Partners",
+            "supportersTitle": "Supporters",
+            "links": {
+                "gawlicki": "https://www.wefundforward.org/",
+                "thehartford": "https://www.thehartford.com/",
+                "cigna": "https://www.cigna.com/",
+                "travelers": "https://www.travelers.com/",
+                "synchrony": "https://www.synchrony.com/",
+                "newmanArchitects": "https://www.newmanarchitects.com/",
+                "ccei": "https://ccei.uconn.edu/",
+                "sociologyUconn": "https://sociology.uconn.edu/",
+                "psychologyUconn": "https://psych.uconn.edu/",
+                "globalUconn": "https://global.uconn.edu/",
+                "sustainabilityOffice": "https://sustainability.uconn.edu/",
+                "FYE": "https://fyp.uconn.edu/"
+            }
         },
         "header": {
             "registrationLink": "https://forms.gle/q3j7kLgcTwFMJozm6",
+            "checkInLink": "",
             "submitLink": ""
         },
         "footer": {
