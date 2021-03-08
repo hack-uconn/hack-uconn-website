@@ -61,7 +61,7 @@ module.exports = {
         "currentWidth": "42rem",
         "currentCardWidth": "30rem", 
         "faq": "58rem",
-        "sponsorWidth": "60rem",
+        "sponsorWidth": "72rem",
       }
     },
   },

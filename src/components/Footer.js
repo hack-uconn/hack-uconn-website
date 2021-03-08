@@ -13,11 +13,6 @@ export default function Footer() {
                             <img alt="instaLogo" src={instaLogo} className="w-42 m-auto"></img>
                         </a>
                     </div>
-                    <div className="flex w-20 h-20 m-auto px-4 pb-20 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                        <a target="_blank" rel="noreferrer" href={phrases.footer.facebookLink}>
-                            <img alt="facebookLogo" src={facebookLogo} className="w-42 m-auto"></img>
-                        </a>
-                    </div>
                 </div>
                 <div className="flex items-center justify-center pb-2">
                     <text className="text-xl md:text-2xl lightText">University of Connecticut</text>

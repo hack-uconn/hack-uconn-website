@@ -112,10 +112,12 @@
                 "newmanArchitects": "https://www.newmanarchitects.com/",
                 "ccei": "https://ccei.uconn.edu/",
                 "sociologyUconn": "https://sociology.uconn.edu/",
-                "psychologyUconn": "https://psych.uconn.edu/",
+                "philosophyUconn": "https://philosophy.uconn.edu/",
                 "globalUconn": "https://global.uconn.edu/",
                 "sustainabilityOffice": "https://sustainability.uconn.edu/",
-                "FYE": "https://fyp.uconn.edu/"
+                "FYE": "https://fyp.uconn.edu/",
+                "werthInstitute": "https://entrepreneurship.uconn.edu/werth-institute/",
+                "github": "https://github.com/"
             }
         },
         "header": {

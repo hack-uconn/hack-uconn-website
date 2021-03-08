@@ -18,7 +18,7 @@ export default function Sponsors(props) {
         let tempName = image.default.split("/")[3];
         let imageName = tempName.split(".")[0];
         return (
-            <div className="flex justify-center items-center w-20 lg:w-28 h-20 lg:h-28">
+            <div className="flex justify-center items-center w-28 lg:w-32 h-28 lg:h-32">
                 <a target="_blank" rel="noreferrer" href={phrases.sponsors.links[imageName]}>
                     <img alt={index} src={image.default} className="max-w-full max-h-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"></img>
                 </a>
@@ -29,7 +29,7 @@ export default function Sponsors(props) {
         let tempName = image.default.split("/")[3];
         let imageName = tempName.split(".")[0];
         return (
-            <div className="flex justify-center items-center w-20 lg:w-28 h-20 lg:h-28">
+            <div className="flex justify-center items-center w-28 lg:w-32 h-28 lg:h-32">
                 <a target="_blank" rel="noreferrer" href={phrases.sponsors.links[imageName]}>
                     <img alt={index} src={image.default} className="max-w-full max-h-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"></img>
                 </a>
@@ -41,7 +41,7 @@ export default function Sponsors(props) {
         let imageName = tempName.split(".")[0];
         console.log(image)
         return (
-            <div className="flex justify-center items-center w-16 md:w-20 lg:w-22 h-16 md:h-20 lg:h-22">
+            <div className="flex justify-center items-center w-28 lg:w-32 h-28 lg:h-32">
                 <a target="_blank" rel="noreferrer" href={phrases.sponsors.links[imageName]}>
                     <img alt={index} src={image.default} className="max-w-full max-h-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"></img>
                 </a>
@@ -52,7 +52,7 @@ export default function Sponsors(props) {
         let tempName = image.default.split("/")[3];
         let imageName = tempName.split(".")[0];
         return (
-            <div className="flex justify-center items-center w-20 lg:w-28 h-20 lg:h-28">
+            <div className="flex justify-center items-center w-28 md:w-32 h-28 md:h-32">
                 <a target="_blank" rel="noreferrer" href={phrases.sponsors.links[imageName]}>
                     <img alt={index} src={image.default} className="max-w-full max-h-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"></img>
                 </a>
@@ -63,7 +63,7 @@ export default function Sponsors(props) {
         let tempName = image.default.split("/")[3];
         let imageName = tempName.split(".")[0];
         return (
-            <div className="flex justify-center items-center w-20 lg:w-28 h-20 lg:h-28">
+            <div className="flex justify-center items-center w-28 lg:w-32 h-28 lg:h-32">
                 <a target="_blank" rel="noreferrer" href={phrases.sponsors.links[imageName]}>
                     <img alt={index} src={image.default} className="max-w-full max-h-full transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"></img>
                 </a>
@@ -76,14 +76,14 @@ export default function Sponsors(props) {
             if (isMobile) {
                 return (
                     <div className="flex flex-row w-full pt-4 pb-12">
-                        <ScrollAnimation animateIn="flipInX" animateOnce={true} className="flex flex-col w-full h-full">
+                        <ScrollAnimation animateIn="flipInX" delay={200} animateOnce={true} className="flex flex-col w-full h-full">
                             <div className="flex flex-col justify-center w-full h-24">
                                 <div className="flex justify-center h-full">
-                                    <text className="text-base md:text-xl lg:text-2xl text-center darkText font-semibold">{phrases.sponsors.lowestLevelTitle}</text>
+                                    <text className="text-2xl text-center darkText font-semibold">{phrases.sponsors.lowestLevelTitle}</text>
                                 </div>
                             </div>
-                            <div className="flex flex-col justify-center w-full h-48 -mt-12">
-                                <div className="flex flex-col w-full h-full items-center justify-center flex-row bg-topic_sponsor_middle shadow-2xl border-8 border-black">
+                            <div className="flex flex-col justify-center w-full h-64 -mt-12">
+                                <div className="flex flex-col w-full h-full items-center justify-center flex-row bg-topic_sponsor_middle shadow-2xl border-t-8 border-b-8 border-black">
                                     <div className="flex flex-row justify-evenly items-center w-full h-full">
                                         {lowestImages.splice(0,Math.floor(lowestImages.length / 2))}
                                     </div>
@@ -97,20 +97,17 @@ export default function Sponsors(props) {
                 );
             }
             return (
-                <div className="flex flex-row w-64 h-sponsorHeight">
-                    <ScrollAnimation animateIn="flipInX" animateOnce={true} className="flex flex-col w-full h-full">
-                        <div className="flex flex-col justify-center pb-6 w-full h-24">
-                            <div className="flex justify-center h-full">
-                                <text className="text-base md:text-xl lg:text-2xl text-center darkText font-semibold">{phrases.sponsors.lowestLevelTitle}</text>
+                <div className="flex flex-row w-full pb-12">
+                    <ScrollAnimation animateIn="flipInX" delay={200} animateOnce={true} className="flex flex-col w-full h-full">
+                        <div className="flex flex-col justify-center w-full h-12">
+                            <div className="flex justify-center w-full h-full">
+                                <text className="text-lg md:text-xl lg:text-2xl text-center darkText font-semibold">{phrases.sponsors.lowestLevelTitle}</text>
                             </div>
                         </div>
-                        <div className="flex flex-col justify-center w-full h-sponsorHeight">
-                            <div className="flex w-full h-full items-center justify-center flex-row bg-topic_sponsor_middle shadow-2xl border-8 border-black">
-                                <div className="flex flex-col justify-evenly items-center w-full h-full">
-                                    {lowestImages.splice(0,Math.floor(lowestImages.length / 2))}
-                                </div>
-                                <div className="flex flex-col justify-evenly items-center w-full h-full">
-                                    {lowestImages.splice(0,lowestImages.length)}
+                        <div className="flex flex-row justify-center w-full h-40 md:h-44 lg:h-48">
+                            <div className="flex w-full h-full items-center justify-center flex-col bg-topic_sponsor_dark shadow-2xl border-8 border-black">
+                                <div className="flex flex-row justify-evenly items-center w-full h-full">
+                                    {lowestImages}
                                 </div>
                             </div>
                         </div>
@@ -121,14 +118,14 @@ export default function Sponsors(props) {
         if (isMobile) {
             return (
                 <div className="flex flex-row w-full">
-                    <ScrollAnimation animateIn="flipInX" animateOnce={true} className="flex flex-col w-full h-full">
+                    <ScrollAnimation animateIn="flipInX" delay={200} animateOnce={true} className="flex flex-col w-full h-full">
                         <div className="flex flex-col justify-center w-full h-24">
                             <div className="flex justify-center h-full">
-                                <text className="text-base md:text-xl lg:text-2xl text-center darkText font-semibold">{phrases.sponsors.lowestLevelTitle}</text>
+                                <text className="text-2xl text-center darkText font-semibold">{phrases.sponsors.lowestLevelTitle}</text>
                             </div>
                         </div>
                         <div className="flex flex-col justify-center w-full">
-                            <div className="flex w-full h-full items-center justify-center flex-col bg-topic_sponsor_middle shadow-2xl border-8 border-black">
+                            <div className="flex w-full h-full items-center justify-center flex-col bg-topic_sponsor_middle shadow-2xl border-t-8 border-b-8 border-black">
                                 <div className="flex flex-row justify-evenly items-center w-full h-full">
                                     {lowestImages}
                                 </div>
@@ -140,13 +137,13 @@ export default function Sponsors(props) {
         }
         return (
             <div className="flex flex-row w-64 h-sponsorHeight">
-                <ScrollAnimation animateIn="flipInX" animateOnce={true} className="flex flex-col w-full h-full">
+                <ScrollAnimation animateIn="flipInX" delay={200} animateOnce={true} className="flex flex-col w-full h-full">
                     <div className="flex flex-col justify-center pb-6 w-full h-24">
                         <div className="flex justify-center h-full">
-                            <text className="text-base md:text-xl lg:text-2xl text-center darkText font-semibold">{phrases.sponsors.lowestLevelTitle}</text>
+                            <text className="text-lg md:text-xl lg:text-2xl text-center darkText font-semibold">{phrases.sponsors.lowestLevelTitle}</text>
                         </div>
                     </div>
-                    <div className="flex flex-col justify-center w-full h-sponsorHeight">
+                    <div className="flex flex-col justify-center w-full h-40 md:h-44 lg:h-48">
                         <div className="flex w-full h-full items-center justify-center flex-col bg-topic_sponsor_middle shadow-2xl border-8 border-black">
                             <div className="flex flex-col justify-evenly items-center w-full h-full">
                                 {lowestImages}
@@ -170,14 +167,14 @@ export default function Sponsors(props) {
                         </ScrollAnimation>
                         <div className="flex flex-col w-full m-auto pt-16 justify-center items-center">
                             <div className="flex flex-col w-full pb-12">
-                                <ScrollAnimation animateIn="flipInX" animateOnce={true} className="flex flex-col w-full h-full">
+                                <ScrollAnimation animateIn="flipInX" delay={200} animateOnce={true} className="flex flex-col w-full h-full">
                                     <div className="flex flex-col justify-center w-full h-12">
                                         <div className="flex justify-center w-full h-full">
-                                            <text className="text-base md:text-xl lg:text-2xl text-center darkText font-semibold">{phrases.sponsors.highestLevelTitle}</text>
+                                            <text className="text-2xl text-center darkText font-semibold">{phrases.sponsors.highestLevelTitle}</text>
                                         </div>
                                     </div>
-                                    <div className="flex flex-row justify-center w-full h-24">
-                                        <div className="flex w-full h-full items-center justify-center flex-col bg-topic_secondary md:rounded-l-lg shadow-2xl border-8 border-black">
+                                    <div className="flex flex-row justify-center w-full h-40">
+                                        <div className="flex w-full h-full items-center justify-center flex-col bg-topic_secondary md:rounded-l-lg shadow-2xl border-t-8 border-b-8 border-black">
                                             <div className="flex flex-row justify-evenly items-center w-full h-full">
                                                 {highestImages}
                                             </div>
@@ -187,14 +184,14 @@ export default function Sponsors(props) {
                             </div>
                             
                             <div className="flex flex-col w-full pb-12">
-                                <ScrollAnimation animateIn="flipInX" animateOnce={true} className="flex flex-col w-full h-full">
+                                <ScrollAnimation animateIn="flipInX" delay={200} animateOnce={true} className="flex flex-col w-full h-full">
                                     <div className="flex flex-col justify-center w-full h-12">
                                         <div className="flex justify-center w-full h-full">
-                                            <text className="text-base md:text-xl lg:text-2xl text-center darkText font-semibold">{phrases.sponsors.middleLevelTitle}</text>
+                                            <text className="text-2xl text-center darkText font-semibold">{phrases.sponsors.middleLevelTitle}</text>
                                         </div>
                                     </div>
-                                    <div className="flex flex-row justify-center w-full h-24">
-                                        <div className="flex w-full h-full items-center justify-center flex-col bg-topic_sponsor_lighter shadow-2xl border-8 border-black">
+                                    <div className="flex flex-row justify-center w-full h-40">
+                                        <div className="flex w-full h-full items-center justify-center flex-col bg-topic_sponsor_lighter shadow-2xl border-t-8 border-b-8 border-black">
                                             <div className="flex flex-row justify-evenly items-center w-full h-full">
                                                 {middleImages}
                                             </div>
@@ -206,14 +203,14 @@ export default function Sponsors(props) {
                             {lowSponsors()}
 
                             <div className="flex flex-row w-full pb-12">
-                                <ScrollAnimation animateIn="flipInX" animateOnce={true} className="flex flex-col w-full h-full">
+                                <ScrollAnimation animateIn="flipInX" delay={200} animateOnce={true} className="flex flex-col w-full h-full">
                                     <div className="flex flex-col justify-center w-full h-12">
                                         <div className="flex justify-center w-full h-full">
-                                            <text className="text-base md:text-xl lg:text-2xl text-center darkText font-semibold">{phrases.sponsors.partnersTitle}</text>
+                                            <text className="text-2xl text-center darkText font-semibold">{phrases.sponsors.partnersTitle}</text>
                                         </div>
                                     </div>
-                                    <div className="flex flex-row justify-center w-full h-24">
-                                        <div className="flex w-full h-full items-center justify-center flex-col bg-topic_sponsor_dark shadow-2xl border-8 border-black">
+                                    <div className="flex flex-row justify-center w-full h-40">
+                                        <div className="flex w-full h-full items-center justify-center flex-col bg-topic_sponsor_dark shadow-2xl border-t-8 border-b-8 border-black">
                                             <div className="flex flex-row justify-evenly items-center w-full h-full">
                                                 {partnersImages}
                                             </div>
@@ -223,14 +220,14 @@ export default function Sponsors(props) {
                             </div>
 
                             <div className="flex flex-row w-full">
-                                <ScrollAnimation animateIn="flipInX" animateOnce={true} className="flex flex-col w-full h-full">
+                                <ScrollAnimation animateIn="flipInX" delay={200} animateOnce={true} className="flex flex-col w-full h-full">
                                     <div className="flex flex-col justify-center w-full h-12">
                                         <div className="flex justify-center w-full h-full">
-                                            <text className="text-base md:text-xl lg:text-2xl text-center darkText font-semibold">{phrases.sponsors.supportersTitle}</text>
+                                            <text className="text-2xl text-center darkText font-semibold">{phrases.sponsors.supportersTitle}</text>
                                         </div>
                                     </div>
-                                    <div className="flex flex-row justify-center w-full h-24">
-                                        <div className="flex w-full h-full items-center justify-center flex-col bg-topic_sponsor_darker md:rounded-r-lg shadow-2xl border-8 border-black">
+                                    <div className="flex flex-row justify-center w-full h-40">
+                                        <div className="flex w-full h-full items-center justify-center flex-col bg-topic_sponsor_darker md:rounded-r-lg shadow-2xl border-t-8 border-b-8 border-black">
                                             <div className="flex flex-row justify-evenly items-center w-full h-full">
                                                 {supportersImages}
                                             </div>
@@ -247,24 +244,24 @@ export default function Sponsors(props) {
 
     return (
         <div ref={props.sponsorsRef} className="flex w-full flex-col">
-            <div className="flex flex-col justify-center w-full h-full lg:m-auto">
+            <div className="flex flex-col justify-center w-full lg:w-sponsorWidth h-full lg:m-auto">
                 <div className="flex flex-col justify-center w-full lg:mx-auto h-full">
                     <ScrollAnimation animateIn="fadeInTop" animateOnce={true} className="flex justify-center items-center flex-col w-full h-32 md:h-full">
                         <div className="flex justify-center items-center m-auto">
                             <text className="text-6xl md:text-7xl text-center text-text_dark font-primary">Sponsors</text>
                         </div>
                     </ScrollAnimation>
-                    <div className="flex flex-row w-full m-auto pt-16 justify-center items-center">
-                        <div className="flex flex-row w-64 h-sponsorHeight">
-                            <ScrollAnimation animateIn="flipInX" animateOnce={true} className="flex flex-col w-full h-full">
-                                <div className="flex flex-col justify-center pb-6 w-full h-24">
+                    <div className="flex flex-col w-full m-auto pt-16 justify-center items-center">
+                        <div className="flex flex-col w-full pb-12">
+                            <ScrollAnimation animateIn="flipInX" delay={200} animateOnce={true} className="flex flex-col w-full h-full">
+                                <div className="flex flex-col justify-center w-full h-12">
                                     <div className="flex justify-center w-full h-full">
-                                        <text className="text-base md:text-xl lg:text-2xl text-center darkText font-semibold">{phrases.sponsors.highestLevelTitle}</text>
+                                        <text className="text-lg md:text-xl lg:text-2xl text-center darkText font-semibold">{phrases.sponsors.highestLevelTitle}</text>
                                     </div>
                                 </div>
-                                <div className="flex flex-col justify-center w-full h-sponsorHeight">
+                                <div className="flex flex-row justify-center w-full h-40 md:h-44 lg:h-48">
                                     <div className="flex w-full h-full items-center justify-center flex-col bg-topic_secondary md:rounded-l-lg shadow-2xl border-8 border-black">
-                                        <div className="flex flex-col justify-evenly items-center w-full h-full">
+                                        <div className="flex flex-row justify-evenly items-center w-full h-full">
                                             {highestImages}
                                         </div>
                                     </div>
@@ -272,16 +269,16 @@ export default function Sponsors(props) {
                             </ScrollAnimation>
                         </div>
                         
-                        <div className="flex flex-row w-64 h-sponsorHeight">
-                            <ScrollAnimation animateIn="flipInX" animateOnce={true} className="flex flex-col w-full h-full">
-                                <div className="flex flex-col justify-center pb-6 w-full h-24">
+                        <div className="flex flex-col w-full pb-12">
+                            <ScrollAnimation animateIn="flipInX" delay={200} animateOnce={true} className="flex flex-col w-full h-full">
+                                <div className="flex flex-col justify-center w-full h-12">
                                     <div className="flex justify-center w-full h-full">
-                                        <text className="text-base md:text-xl lg:text-2xl text-center darkText font-semibold">{phrases.sponsors.middleLevelTitle}</text>
+                                        <text className="text-lg md:text-xl lg:text-2xl text-center darkText font-semibold">{phrases.sponsors.middleLevelTitle}</text>
                                     </div>
                                 </div>
-                                <div className="flex flex-col justify-center w-full h-sponsorHeight">
+                                <div className="flex flex-row justify-center w-full h-40 md:h-44 lg:h-48">
                                     <div className="flex w-full h-full items-center justify-center flex-col bg-topic_sponsor_lighter shadow-2xl border-8 border-black">
-                                        <div className="flex flex-col justify-evenly items-center w-full h-full">
+                                        <div className="flex flex-row justify-evenly items-center w-full h-full">
                                             {middleImages}
                                         </div>
                                     </div>
@@ -291,16 +288,16 @@ export default function Sponsors(props) {
                         
                         {lowSponsors()}
 
-                        <div className="flex flex-row w-64 h-sponsorHeight">
-                            <ScrollAnimation animateIn="flipInX" animateOnce={true} className="flex flex-col w-full h-full">
-                                <div className="flex flex-col justify-center pb-6 w-full h-24">
+                        <div className="flex flex-row w-full pb-12">
+                            <ScrollAnimation animateIn="flipInX" delay={200} animateOnce={true} className="flex flex-col w-full h-full">
+                                <div className="flex flex-col justify-center w-full h-12">
                                     <div className="flex justify-center w-full h-full">
-                                        <text className="text-base md:text-xl lg:text-2xl text-center darkText font-semibold">{phrases.sponsors.partnersTitle}</text>
+                                        <text className="text-lg md:text-xl lg:text-2xl text-center darkText font-semibold">{phrases.sponsors.partnersTitle}</text>
                                     </div>
                                 </div>
-                                <div className="flex flex-col justify-center w-full h-sponsorHeight">
+                                <div className="flex flex-row justify-center w-full h-40 md:h-44 lg:h-48">
                                     <div className="flex w-full h-full items-center justify-center flex-col bg-topic_sponsor_dark shadow-2xl border-8 border-black">
-                                        <div className="flex flex-col justify-evenly items-center w-full h-full">
+                                        <div className="flex flex-row justify-evenly items-center w-full h-full">
                                             {partnersImages}
                                         </div>
                                     </div>
@@ -308,16 +305,16 @@ export default function Sponsors(props) {
                             </ScrollAnimation>
                         </div>
 
-                        <div className="flex flex-row w-64 h-sponsorHeight">
-                            <ScrollAnimation animateIn="flipInX" animateOnce={true} className="flex flex-col w-full h-full">
-                                <div className="flex flex-col justify-center pb-6 w-full h-24">
+                        <div className="flex flex-row w-full">
+                            <ScrollAnimation animateIn="flipInX" delay={200} animateOnce={true} className="flex flex-col w-full h-full">
+                                <div className="flex flex-col justify-center w-full h-12">
                                     <div className="flex justify-center w-full h-full">
-                                        <text className="text-base md:text-xl lg:text-2xl text-center darkText font-semibold">{phrases.sponsors.supportersTitle}</text>
+                                        <text className="text-lg md:text-xl lg:text-2xl text-center darkText font-semibold">{phrases.sponsors.supportersTitle}</text>
                                     </div>
                                 </div>
-                                <div className="flex flex-col justify-center w-full h-sponsorHeight">
+                                <div className="flex flex-row justify-center w-full h-40 md:h-44 lg:h-48">
                                     <div className="flex w-full h-full items-center justify-center flex-col bg-topic_sponsor_darker md:rounded-r-lg shadow-2xl border-8 border-black">
-                                        <div className="flex flex-col justify-evenly items-center w-full h-full">
+                                        <div className="flex flex-row justify-evenly items-center w-full h-full">
                                             {supportersImages}
                                         </div>
                                     </div>
