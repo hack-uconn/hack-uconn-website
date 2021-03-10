@@ -18,6 +18,19 @@ export default function Current() {
         setSelected(val);
     }
 
+    const cardZIndex = () => {
+        if (selected) {
+            return (
+                "w-full h-full back"
+            );
+        }
+        else {
+            return (
+                "w-full h-full"
+            );
+        }
+    }
+
     const setCurrentHeader = (val, type) => {
         if (type === "scale") {
             if (selected === val) {
@@ -125,12 +138,9 @@ export default function Current() {
         else if (selected === "prizes") {
             if (val === "about") {
                 return (
-                    <div className="flex w-full lg:w-currentCardWidth h-96 md:h-currentHeight items-center justify-center flex-col m-auto bg-topic_current_prizes_card rounded-lg shadow-2xl border-8 border-black">
+                    <div className="flex w-32 md:w-full lg:w-currentCardWidth h-96 md:h-currentHeight items-center justify-center flex-col m-auto bg-topic_current_prizes_card rounded-lg shadow-2xl border-8 border-black">
                         <div className="flex w-full md:w-64 h-full justify-center items-center">
                             <div className="flex flex-col w-full h-full justify-start items-center">
-                                <div className="flex h-4 mt-8 mx-auto justify-center items-center">
-                                        <text className="lightText italic text-xs md:text-sm text-center">If the exact prize is not available a suitable replacement will be provided.</text>
-                                    </div>
                                 <div className="flex h-12 mt-6 justify-center items-center">
                                     <text className="lightText text-sm md:text-3xl lg:text-4xl text-center text-center">Grand Prizes</text>
                                 </div>
@@ -165,9 +175,12 @@ export default function Current() {
             }
             else if (val === "schedule") { 
                 return (
-                    <div className="flex w-full lg:w-currentCardWidth h-96 md:h-currentHeight items-center justify-center flex-col m-auto bg-topic_current_prizes_card rounded-lg shadow-2xl border-8 border-black">
+                    <div className="flex w-32 md:w-full lg:w-currentCardWidth h-96 md:h-currentHeight items-center justify-center flex-col m-auto bg-topic_current_prizes_card rounded-lg shadow-2xl border-8 border-black">
                         <div className="flex w-full md:w-80 lg:w-96 h-full justify-center items-center">
                             <div className="flex flex-col w-full h-full justify-start items-center">
+                                <div className="flex h-4 mt-8 mx-auto justify-center items-center">
+                                    <text className="lightText italic text-xs md:text-sm text-center">If the exact prize is not available, a suitable replacement will be provided.</text>
+                                </div>
                                 <div className="flex h-20 mt-6 justify-center items-center">
                                     <text className="lightText text-sm md:text-3xl lg:text-4xl text-center text-center">Category Prizes</text>
                                 </div>
@@ -338,9 +351,6 @@ export default function Current() {
                         <div className="flex w-full h-full justify-center items-center">
                             <div className="flex flex-col w-11/12 h-full m-auto justify-center items-center">
                                 <div className="flex flex-col w-full justify-center items-center">
-                                    <div className="flex h-4 mt-0 mx-auto justify-center items-center">
-                                        <text className="lightText italic text-xs text-center">If the exact prize is not available a suitable replacement will be provided.</text>
-                                    </div>
                                     <div className="flex h-12 mt-0 mx-auto justify-center items-center">
                                         <text className="lightText text-2xl text-center text-center">Grand Prizes</text>
                                     </div>
@@ -372,6 +382,9 @@ export default function Current() {
                                     </div>
                                 </div>
                                 <div className="flex flex-col w-full h-3/5 justify-center items-center">
+                                    <div className="flex h-4 mt-0 mx-auto justify-center items-center">
+                                        <text className="lightText italic text-xs text-center">If the exact prize is not available, a suitable replacement will be provided.</text>
+                                    </div>
                                     <div className="flex h-12 justify-center items-center">
                                         <text className="lightText text-2xl text-center">Category Prizes</text>
                                     </div>
@@ -513,7 +526,7 @@ export default function Current() {
                             <ReactCardFlip isFlipped={selected === "schedule" || selected === "prizes"} flipDirection="horizontal" containerStyle={returnHeight()}>
                                 <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} className="flex w-full h-48 md:h-96 items-center justify-center flex-col m-auto">
                                     <div className="flex w-full h-full justify-center items-center">
-                                        <img alt="about" src={aboutPic} className="w-full h-full"></img>
+                                        <img alt="about" src={aboutPic} className={cardZIndex()}></img>
                                     </div>
                                 </ScrollAnimation>
                                 {setDescription("about")}
@@ -525,7 +538,7 @@ export default function Current() {
                             <ReactCardFlip isFlipped={selected === "about" || selected === "prizes"} flipDirection="horizontal" containerStyle={returnHeight()}>
                                 <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} className="flex w-full h-48 md:h-96 items-center justify-center flex-col m-auto">
                                     <div className="flex w-full h-full justify-center items-center">
-                                        <img alt="schedule" src={schedulePic} className="w-full h-full"></img>
+                                        <img alt="schedule" src={schedulePic} className={cardZIndex()}></img>
                                     </div>
                                 </ScrollAnimation>
                                 {setDescription("schedule")}
@@ -537,7 +550,7 @@ export default function Current() {
                             <ReactCardFlip isFlipped={selected === "about" || selected === "schedule"} flipDirection="horizontal" containerStyle={returnHeight()}>
                                 <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} className="flex w-full h-48 md:h-96 items-center justify-center flex-col m-auto">
                                     <div className="flex w-full h-full justify-center items-center">
-                                        <img alt="prizes" src={prizesPic} className="w-full h-full"></img>
+                                        <img alt="prizes" src={prizesPic} className={cardZIndex()}></img>
                                     </div>
                                 </ScrollAnimation>
                                 {setDescription("prizes")}
