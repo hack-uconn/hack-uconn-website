@@ -126,33 +126,36 @@ export default function Current() {
             if (val === "about") {
                 return (
                     <div className="flex w-full lg:w-currentCardWidth h-96 md:h-currentHeight items-center justify-center flex-col m-auto bg-topic_current_prizes_card rounded-lg shadow-2xl border-8 border-black">
-                        <div className="flex w-64 h-full justify-center items-center">
+                        <div className="flex w-full md:w-64 h-full justify-center items-center">
                             <div className="flex flex-col w-full h-full justify-start items-center">
-                                <div className="flex h-20 mt-6 justify-center items-center">
-                                    <text className="lightText text-3xl lg:text-4xl text-center text-center">Grand Prizes</text>
+                                <div className="flex h-4 mt-8 mx-auto justify-center items-center">
+                                        <text className="lightText italic text-xs md:text-sm text-center">If the exact prize is not available a suitable replacement will be provided.</text>
+                                    </div>
+                                <div className="flex h-12 mt-6 justify-center items-center">
+                                    <text className="lightText text-sm md:text-3xl lg:text-4xl text-center text-center">Grand Prizes</text>
                                 </div>
-                                <div className="flex flex-col justify-center items-center pt-12">
+                                <div className="flex flex-col justify-center items-center md:pt-12">
                                     <div className="flex justify-center items-center pb-2">
-                                        <text className="lightText text-2xl lg:text-3xl text-center text-center">{phrases.current.prizesdescription1.first.title}</text>
+                                        <text className="lightText underline text-sm md:text-2xl lg:text-3xl text-center text-center">{phrases.current.prizesdescription1.first.title}</text>
                                     </div>
                                     <div className="flex justify-center items-center">
-                                        <text className="lightText text-xl lg:text-xl text-center text-center">{phrases.current.prizesdescription1.first.description}</text>
+                                        <text className="lightText text-xs md:text-xl lg:text-xl text-center text-center">{phrases.current.prizesdescription1.first.description}</text>
                                     </div>
                                 </div>
                                 <div className="flex flex-col justify-center items-center py-6">
                                     <div className="flex justify-center items-center pb-2">
-                                        <text className="lightText text-2xl lg:text-3xl text-center text-center">{phrases.current.prizesdescription1.second.title}</text>
+                                        <text className="lightText underline text-sm md:text-2xl lg:text-3xl text-center text-center">{phrases.current.prizesdescription1.second.title}</text>
                                     </div>
                                     <div className="flex justify-center items-center">
-                                        <text className="lightText text-xl lg:text-xl text-center text-center">{phrases.current.prizesdescription1.second.description}</text>
+                                        <text className="lightText text-xs md:text-xl lg:text-xl text-center text-center">{phrases.current.prizesdescription1.second.description}</text>
                                     </div>
                                 </div>
                                 <div className="flex flex-col justify-center items-center">
                                     <div className="flex justify-center items-center pb-2">
-                                        <text className="lightText text-2xl lg:text-3xl text-center text-center">{phrases.current.prizesdescription1.third.title}</text>
+                                        <text className="lightText underline text-sm md:text-2xl lg:text-3xl text-center text-center">{phrases.current.prizesdescription1.third.title}</text>
                                     </div>
                                     <div className="flex justify-center items-center">
-                                        <text className="lightText text-xl lg:text-xl text-center text-center">{phrases.current.prizesdescription1.third.description}</text>
+                                        <text className="lightText text-xs md:text-xl lg:text-xl text-center text-center">{phrases.current.prizesdescription1.third.description}</text>
                                     </div>
                                 </div>
                             </div>
@@ -163,14 +166,41 @@ export default function Current() {
             else if (val === "schedule") { 
                 return (
                     <div className="flex w-full lg:w-currentCardWidth h-96 md:h-currentHeight items-center justify-center flex-col m-auto bg-topic_current_prizes_card rounded-lg shadow-2xl border-8 border-black">
-                        <div className="flex w-64 h-full justify-center items-center">
+                        <div className="flex w-full md:w-80 lg:w-96 h-full justify-center items-center">
                             <div className="flex flex-col w-full h-full justify-start items-center">
                                 <div className="flex h-20 mt-6 justify-center items-center">
-                                    <text className="lightText text-3xl lg:text-4xl text-center text-center">Category Prizes</text>
+                                    <text className="lightText text-sm md:text-3xl lg:text-4xl text-center text-center">Category Prizes</text>
                                 </div>
-                                <div className="flex flex-col justify-center items-center pt-12">
-                                    <div className="flex justify-center items-center pb-2">
-                                        <text className="lightText text-lg md:text-2xl lg:text-3xl text-center text-center">Coming soon!</text>
+                                <div className="flex flex-col justify-center items-center md:pt-12">
+                                    <div className="flex justify-center items-center md:pb-2">
+                                        <text className="lightText text-sm underline md:text-xl lg:text-2xl text-center text-center">{phrases.current.prizesdescription2.crowdFavorite.title}</text>
+                                    </div>
+                                    <div className="flex justify-center items-center">
+                                        <text className="lightText text-xs md:text-lg text-center text-center">{phrases.current.prizesdescription2.crowdFavorite.description}</text>
+                                    </div>
+                                </div>
+                                <div className="flex flex-col justify-center items-center md:py-6">
+                                    <div className="flex justify-center items-center md:pb-2">
+                                        <text className="lightText underline text-sm md:text-xl lg:text-2xl text-center text-center">{phrases.current.prizesdescription2.fourth.title}</text>
+                                    </div>
+                                    <div className="flex justify-center items-center">
+                                        <text className="lightText text-xs md:text-xl text-center text-center">{phrases.current.prizesdescription2.fourth.description}</text>
+                                    </div>
+                                </div>
+                                <div className="flex flex-col justify-center items-center">
+                                    <div className="flex justify-center items-center md:pb-2">
+                                        <text className="lightText underline text-sm md:text-xl lg:text-2xl text-center text-center">{phrases.current.prizesdescription2.fifth.title}</text>
+                                    </div>
+                                    <div className="flex justify-center items-center">
+                                        <text className="lightText text-xs md:text-xl text-center text-center">{phrases.current.prizesdescription2.fifth.description}</text>
+                                    </div>
+                                </div>
+                                <div className="flex flex-col justify-center items-center">
+                                    <div className="flex justify-center items-center md:pb-2">
+                                        <text className="lightText underline text-sm md:text-xl lg:text-2xl text-center text-center">{phrases.current.prizesdescription2.sixth.title}</text>
+                                    </div>
+                                    <div className="flex justify-center items-center">
+                                        <text className="lightText text-xs md:text-xl text-center text-center">{phrases.current.prizesdescription2.sixth.description}</text>
                                     </div>
                                 </div>
                             </div>
@@ -307,14 +337,17 @@ export default function Current() {
                     <div className="flex w-64 h-currentMobileHeight md:h-currentHeight items-center justify-center flex-col m-auto bg-topic_current_prizes_card rounded-lg shadow-lg border-8 border-black">
                         <div className="flex w-full h-full justify-center items-center">
                             <div className="flex flex-col w-11/12 h-full m-auto justify-center items-center">
-                                <div className="flex flex-col w-full h-1/2 justify-center items-center">
-                                    <div className="flex h-12 m-auto justify-center items-center">
+                                <div className="flex flex-col w-full justify-center items-center">
+                                    <div className="flex h-4 mt-0 mx-auto justify-center items-center">
+                                        <text className="lightText italic text-xs text-center">If the exact prize is not available a suitable replacement will be provided.</text>
+                                    </div>
+                                    <div className="flex h-12 mt-0 mx-auto justify-center items-center">
                                         <text className="lightText text-2xl text-center text-center">Grand Prizes</text>
                                     </div>
                                     <div className="flex flex-row w-full h-full justify-center items-center">
                                         <div className="flex flex-col m-auto justify-center items-center">
                                             <div className="flex justify-center items-center pb-2">
-                                                <text className="lightText text-base text-center text-center">{phrases.current.prizesdescription1.first.title}</text>
+                                                <text className="lightText underline text-sm text-center text-center">{phrases.current.prizesdescription1.first.title}</text>
                                             </div>
                                             <div className="flex justify-center items-center">
                                                 <text className="lightText text-xs text-center text-center">{phrases.current.prizesdescription1.first.description}</text>
@@ -322,7 +355,7 @@ export default function Current() {
                                         </div>
                                         <div className="flex flex-col m-auto justify-center items-center">
                                             <div className="flex justify-center items-center pb-2">
-                                                <text className="lightText text-base text-center text-center">{phrases.current.prizesdescription1.second.title}</text>
+                                                <text className="lightText underline text-sm  text-center text-center">{phrases.current.prizesdescription1.second.title}</text>
                                             </div>
                                             <div className="flex justify-center items-center">
                                                 <text className="lightText text-xs text-center text-center">{phrases.current.prizesdescription1.second.description}</text>
@@ -330,7 +363,7 @@ export default function Current() {
                                         </div>
                                         <div className="flex flex-col m-auto justify-center items-center">
                                             <div className="flex justify-center items-center pb-2">
-                                                <text className="lightText text-base text-center text-center">{phrases.current.prizesdescription1.third.title}</text>
+                                                <text className="lightText underline text-sm  text-center text-center">{phrases.current.prizesdescription1.third.title}</text>
                                             </div>
                                             <div className="flex justify-center items-center">
                                                 <text className="lightText text-xs text-center text-center">{phrases.current.prizesdescription1.third.description}</text>
@@ -338,14 +371,47 @@ export default function Current() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="flex flex-col w-full h-1/2 justify-center items-center">
-                                <div className="flex h-12 m-auto justify-center items-center">
-                                        <text className="lightText text-2xl text-center text-center">{phrases.current.prizesdescription2.title}</text>
+                                <div className="flex flex-col w-full h-3/5 justify-center items-center">
+                                    <div className="flex h-12 justify-center items-center">
+                                        <text className="lightText text-2xl text-center">Category Prizes</text>
+                                    </div>
+                                    <div className="flex h-12 m-auto justify-center items-center">
+                                        <text className="lightText underline text-sm text-center text-center">{phrases.current.prizesdescription2.crowdFavorite.title}</text>
                                     </div>
                                     <div className="flex flex-row w-full h-full justify-center items-center">
                                         <div className="flex flex-col m-auto justify-center items-center">
                                             <div className="flex justify-center items-center pb-2">
-                                                <text className="lightText text-sm text-center text-center">{phrases.current.prizesdescription2.description}</text>
+                                                <text className="lightText text-xs text-center text-center">{phrases.current.prizesdescription2.crowdFavorite.description}</text>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="flex h-12 m-auto justify-center items-center">
+                                        <text className="lightText underline text-sm text-center text-center">{phrases.current.prizesdescription2.fourth.title}</text>
+                                    </div>
+                                    <div className="flex flex-row w-full h-full justify-center items-center">
+                                        <div className="flex flex-col m-auto justify-center items-center">
+                                            <div className="flex justify-center items-center pb-2">
+                                                <text className="lightText text-xs text-center text-center">{phrases.current.prizesdescription2.fourth.description}</text>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="flex h-12 m-auto justify-center items-center">
+                                        <text className="lightText underline text-sm text-center text-center">{phrases.current.prizesdescription2.fifth.title}</text>
+                                    </div>
+                                    <div className="flex flex-row w-full h-full justify-center items-center">
+                                        <div className="flex flex-col m-auto justify-center items-center">
+                                            <div className="flex justify-center items-center pb-2">
+                                                <text className="lightText text-xs text-center text-center">{phrases.current.prizesdescription2.fifth.description}</text>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="flex h-12 m-auto justify-center items-center">
+                                        <text className="lightText underline text-sm text-center text-center">{phrases.current.prizesdescription2.sixth.title}</text>
+                                    </div>
+                                    <div className="flex flex-row w-full h-full justify-center items-center">
+                                        <div className="flex flex-col m-auto justify-center items-center">
+                                            <div className="flex justify-center items-center pb-2">
+                                                <text className="lightText text-xs text-center text-center">{phrases.current.prizesdescription2.sixth.description}</text>
                                             </div>
                                         </div>
                                     </div>
@@ -384,7 +450,7 @@ export default function Current() {
                                     <img alt="prizes" src={prizesPic} className="w-full h-full"></img>
                                 </div>
                             </ScrollAnimation>
-                    </div>
+                        </div>
                     </div>
                 </div>
             );

@@ -39,8 +39,22 @@
                 }
             },
             "prizesdescription2": {
-                "title": "Category Prizes",
-                "description": "Coming soon!"
+                "crowdFavorite": {
+                    "title": "Crowd Favorite",
+                    "description": "Friendship Lamp"
+                },
+                "fourth": {
+                    "title": "Best Sustainability Hack",
+                    "description": "LARQ Bottle"
+                },
+                "fifth": {
+                    "title": "Best Tech Hack",
+                    "description": "GitHub Swag + No Bounds BlueTooth speaker"
+                },
+                "sixth": {
+                    "title": "Most Creative Hack",
+                    "description": "Solar Charging Panel"
+                }
             }
         },
         "faq": {
