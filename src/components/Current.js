@@ -113,8 +113,10 @@ export default function Current() {
                             <div className="flex w-full h-20 justify-center items-center">
                                 <text className="lightText text-2xl lg:text-3xl text-center text-center">Day 1</text>
                             </div>
-                            <div className="flex w-full h-currentScheduleDay1Height object-contain justify-center items-center">
-                                <img alt="day1" src={day1Pic} className="w-10/12 h-full"></img>
+                            <div className="flex w-full h-currentScheduleDay1Height object-contain justify-center items-center mb-20">
+                                <a target="_blank" rel="noreferrer" href="https://docs.google.com/spreadsheets/d/1QaNaEVKOf0APBYGvIoox8LD89SVpqr6aVeA-1YHOCgo/edit?usp=sharing">
+                                    <text className="lightText text-xl lg:text-32xl text-center text-center">Itinerary</text>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -128,7 +130,9 @@ export default function Current() {
                                 <text className="lightText text-2xl lg:text-3xl text-center text-center">Day 2</text>
                             </div>
                             <div className="flex w-full h-currentScheduleDay1Height object-contain justify-center items-center mb-20">
-                                <img alt="day2" src={day2Pic} className="w-full h-auto"></img>
+                                <a target="_blank" rel="noreferrer" href="https://docs.google.com/spreadsheets/d/1QaNaEVKOf0APBYGvIoox8LD89SVpqr6aVeA-1YHOCgo/edit?usp=sharing">
+                                    <text className="lightText text-xl lg:text-32xl text-center text-center">Itinerary</text>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -326,7 +330,9 @@ export default function Current() {
                                 </div>
                                 <div className="flex flex-col max-w-full max-h-full m-auto justify-center items-center">
                                     <div className="flex w-full h-full object-contain justify-center items-center">
-                                        <img alt="scheduleMobile1" src={selectDay === "day1" ? day1Pic : day2Pic} className="max-w-full max-h-currentMaxHeight"></img>
+                                        <a target="_blank" rel="noreferrer" href="https://docs.google.com/spreadsheets/d/1QaNaEVKOf0APBYGvIoox8LD89SVpqr6aVeA-1YHOCgo/edit?usp=sharing">
+                                            <text className="lightText text-xl lg:text-32xl text-center text-center">Itinerary</text>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
