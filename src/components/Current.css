@@ -1,58 +1,63 @@
 .lightText {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Sen', sans-serif;
     color: white;
     text-shadow: 3px 5px 2px #474747, 0px 0px 10px #000000;
 }
 
 .lightTextFooter {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Sen', sans-serif;
     color: white;
     text-shadow: 3px 5px 2px #474747, 0px 0px 10px #000000;
 }
 
 .lightTextFooter:hover {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Sen', sans-serif;
     color: black;
 }
 
 .lightTextSelected {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Sen', sans-serif;
     color: #cce2b9;
     text-shadow: 3px 5px 2px #474747, 0px 0px 10px #000000;
 }
 
 .lightTextAbout {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Sen', sans-serif;
     color: white;
     line-height: 1.3;
     text-shadow: 3px 5px 2px #474747, 0px 0px 10px #000000;
 }
 
 .lightTextAboutMobile {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Sen', sans-serif;
     color: white;
     line-height: 0.8;
     text-shadow: 3px 5px 2px #474747, 0px 0px 10px #000000;
 }
 
 .lightTextFAQAnswer {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Sen', sans-serif;
     color: white;
     text-shadow: 3px 5px 2px #474747, 0px 0px 10px #000000;
 }
 
 .darkText {
-    font-family: 'Quicksand', sans-serif;
-    color: black;
+    font-family: 'Sen', sans-serif;
+    color: #000044;
     line-height: 1.8;
     /* text-shadow: 3px 5px 2px white, 0px 0px 10px white; */ 
 }
 
 .darkTextMobile {
-    font-family: 'Quicksand', sans-serif;
-    color: black;
+    font-family: 'Sen', sans-serif;
+    color: #000044;
     line-height: 1.2;
     /* text-shadow: 3px 5px 2px white, 0px 0px 10px white; */ 
+}
+
+.navyText {
+    font-family: 'Sen', sans-serif;
+    color: #000044;
 }
 
 .rotate-gears {
@@ -61,7 +66,7 @@
 }
 
 .rotate-earth {
-    animation: rotation-earth 15s infinite linear;
+    /* animation: rotation-earth 15s infinite linear; */
     filter: drop-shadow(0 0 0.5rem #000000);
 }
 

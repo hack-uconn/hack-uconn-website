@@ -39,7 +39,6 @@ export default function Sponsors(props) {
     const lowestImages = lowest.map((image, index) => {
         let tempName = image.default.split("/")[3];
         let imageName = tempName.split(".")[0];
-        console.log(image)
         return (
             <div className="flex justify-center items-center w-28 lg:w-32 h-28 lg:h-32">
                 <a target="_blank" rel="noreferrer" href={phrases.sponsors.links[imageName]}>

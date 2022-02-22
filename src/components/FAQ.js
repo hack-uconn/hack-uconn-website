@@ -62,8 +62,8 @@ export default function FAQ(props) {
                             </div>
                         </AccordionItemButton>
                     </AccordionItemHeading>
-                    <AccordionItemPanel className="bg-topic_dark border-b-none h-16 md:h-24">
-                        <div className="flex justify-center items-center flex-row w-full h-full bg-topic_dark">
+                    <AccordionItemPanel className="bg-topic_secondary border-b-none h-16 md:h-24">
+                        <div className="flex justify-center items-center flex-row w-full h-full bg-topic_secondary">
                             <text className={setAnswerHeight(obj.answer)}>{obj.answer}</text>
                         </div>
                     </AccordionItemPanel>

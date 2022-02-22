@@ -6,28 +6,28 @@ module.exports = {
       colors: {
         uconn_primary: "#000E2F",
         uconn_register: "#004369",
-        topic_primary: "#cce2b9",
-        topic_secondary: "#6f913d",
-        topic_middle: "#546D2E",
-        topic_dark: "#1C2510", //darker "#253014"
-        topic_about_slider: "#B5CE9A",
-        topic_current_header: "#859E64",
-        topic_current_about_card: "#628345",
-        topic_current_schedule_card: "#2BC6F6",
+        topic_primary: "#ffffbd",
+        topic_secondary: "#049dad",
+        topic_middle: "#ffcd1b",
+        topic_dark: "#ffcd1b", //darker "#253014"
+        topic_about_slider: "#ffcd1b",
+        topic_current_header: "#ffcd1b",
+        topic_current_about_card: "#049dad",
+        topic_current_schedule_card: "#049dad",
         topic_current_schedule_card_header: "#28A9D1",
-        topic_current_prizes_card: "#828282",
-        topic_sponsor_lighter: "#617F36",
-        topic_sponsor_middle: "#546D2E",
-        topic_sponsor_dark: "#465B27",
-        topic_sponsor_darker: "#38491F",
-        text_light: "#FFFFFF",
-        text_dark: "#000000",
+        topic_current_prizes_card: "#049dad",
+        topic_sponsor_lighter: "#049dad",
+        topic_sponsor_middle: "#049dad",
+        topic_sponsor_dark: "#049dad",
+        topic_sponsor_darker: "#049dad",
+        text_light: "#000044",
+        text_dark: "#000044",
         header_btn: "#65FB7A",
         header_menu: "#7E868C",
         header_mobile_register: "#BDC0C3"
       },
       fontFamily: {
-        primary: ['"Caveat Brush"']
+        primary: ['"Avenir Next Condensed"']
       },
       fontSize: {
         aboutDescriptionMobile: ['0.6rem', '0.5rem'],

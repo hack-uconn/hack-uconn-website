@@ -114,9 +114,9 @@ export default function Current() {
                                 <text className="lightText text-2xl lg:text-3xl text-center text-center">Day 1</text>
                             </div>
                             <div className="flex w-full h-currentScheduleDay1Height object-contain justify-center items-center mb-20">
-                                <a target="_blank" rel="noreferrer" href="https://docs.google.com/spreadsheets/d/1QaNaEVKOf0APBYGvIoox8LD89SVpqr6aVeA-1YHOCgo/edit?usp=sharing">
-                                    <text className="lightText text-xl lg:text-32xl text-center text-center">Itinerary</text>
-                                </a>
+                                {/* <a target="_blank" rel="noreferrer" href="https://docs.google.com/spreadsheets/d/1QaNaEVKOf0APBYGvIoox8LD89SVpqr6aVeA-1YHOCgo/edit?usp=sharing"> */}
+                                <text className="lightText text-xl lg:text-32xl text-center text-center">More info coming soon!</text>
+                                {/* </a> */}
                             </div>
                         </div>
                     </div>
@@ -130,9 +130,9 @@ export default function Current() {
                                 <text className="lightText text-2xl lg:text-3xl text-center text-center">Day 2</text>
                             </div>
                             <div className="flex w-full h-currentScheduleDay1Height object-contain justify-center items-center mb-20">
-                                <a target="_blank" rel="noreferrer" href="https://docs.google.com/spreadsheets/d/1QaNaEVKOf0APBYGvIoox8LD89SVpqr6aVeA-1YHOCgo/edit?usp=sharing">
-                                    <text className="lightText text-xl lg:text-32xl text-center text-center">Itinerary</text>
-                                </a>
+                                {/* <a target="_blank" rel="noreferrer" href="https://docs.google.com/spreadsheets/d/1QaNaEVKOf0APBYGvIoox8LD89SVpqr6aVeA-1YHOCgo/edit?usp=sharing"> */}
+                                <text className="lightText text-xl lg:text-32xl text-center text-center">More info coming soon!</text>
+                                {/* </a> */}
                             </div>
                         </div>
                     </div>
