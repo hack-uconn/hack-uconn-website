@@ -10,6 +10,7 @@ module.exports = {
         topic_secondary: "#049dad",
         topic_middle: "#ffcd1b",
         topic_dark: "#ffcd1b", //darker "#253014"
+        topic_white: "#FFFFFF",
         topic_about_slider: "#ffcd1b",
         topic_current_header: "#ffcd1b",
         topic_current_about_card: "#049dad",
@@ -39,13 +40,13 @@ module.exports = {
         "currentHeight": "36rem",
         "currentMobileHeight": "26rem",
         "currentBodyMobileHeight": "28rem",
-        "landingLogoHeight": "34rem",
+        "landingLogoHeight": "26rem",
         "currentScheduleDay1Height": "30rem",
         "sponsorHeight": "38rem" 
       }),
       maxHeight: {
         "currentMaxHeight": "20rem",
-        "landingLogoHeight": "34rem",
+        "landingLogoHeight": "26rem",
       },
       margin: {
         "app": "6%"

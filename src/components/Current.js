@@ -486,26 +486,15 @@ export default function Current() {
                         </div>
                     </ScrollAnimation>
                     <ScrollAnimation animateIn="fadeInDown" animateOnce={true} className="flex flex-row w-full md:w-aboutTabsWidth h-24 md:h-auto mt-12 mb-0 md:m-auto p-0 md:p-6 justify-center items-center bg-topic_secondary opacity-90 rounded-lg shadow-2xl bg-topic_current_header border-8 border-black">
-                        <button onClick={() => {selected === "about" ? updateSelected(null) : updateSelected("about")}} className={setCurrentHeader("about", "scale")}>
-                            <text className={setCurrentHeader("about", "text")}>About</text>
-                        </button>
-                        <button onClick={() => {selected === "schedule" ? updateSelected(null) : updateSelected("schedule")}} className={setCurrentHeader("schedule", "scale")}>
-                            <text className={setCurrentHeader("schedule", "text")}>Schedule</text>
-                        </button>
-                        <button onClick={() => {selected === "prizes" ? updateSelected(null) : updateSelected("prizes")}} className={setCurrentHeader("prizes", "scale")}>
-                            <text className={setCurrentHeader("prizes", "text")}>Prizes</text>
-                        </button>
+                        <text className="text-3xl md:text-6xl lg:text-7xl text-text_dark font-primary">More info coming soon!</text>
                     </ScrollAnimation>
-                    <div className="flex flex-row justify-center items-center mt-0 mb-auto md:my-auto md:w-full h-currentBodyMobileHeight">
-                        {body}
-                    </div>
                 </div>
             </div>
         );
     }
 
     return (
-        <div className="flex w-full h-landingHeight mx-app flex-col">
+        <div className="flex w-full h-48 mx-app flex-col">
             <div className="flex flex-col justify-center h-full">
                 <ScrollAnimation animateIn="fadeInDown" animateOnce={true} className="flex w-full items-center justify-center flex-col">
                     <div className="flex justify-center pb-4">
@@ -516,54 +505,8 @@ export default function Current() {
                     </div>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="fadeInDown" animateOnce={true} className="flex flex-row w-full md:w-aboutTabsWidth h-24 md:h-auto mt-12 mb-20 md:m-auto p-0 md:p-6 justify-center items-center bg-topic_secondary opacity-90 rounded-lg shadow-2xl bg-topic_current_header border-8 border-black">
-                    <button onClick={() => {selected === "about" ? updateSelected(null) : updateSelected("about")}} className={setCurrentHeader("about", "scale")}>
-                        <text className={setCurrentHeader("about", "text")}>About</text>
-                    </button>
-                    <button onClick={() => {selected === "schedule" ? updateSelected(null) : updateSelected("schedule")}} className={setCurrentHeader("schedule", "scale")}>
-                        <text className={setCurrentHeader("schedule", "text")}>Schedule</text>
-                    </button>
-                    <button onClick={() => {selected === "prizes" ? updateSelected(null) : updateSelected("prizes")}} className={setCurrentHeader("prizes", "scale")}>
-                        <text className={setCurrentHeader("prizes", "text")}>Prizes</text>
-                    </button>
+                    <text className="text-6xl lg:text-5xl text-center text-text_dark font-primary">More info coming soon!</text>
                 </ScrollAnimation>
-                <div className="flex flex-row justify-center items-center mt-0 mb-auto md:my-auto md:w-full h-full md:h-currentHeight">
-                    <div className="flex flex-col justify-center w-28 md:w-80 h-full m-auto">
-                        <div className="flex w-full h-full justify-center items-center">
-                            <ReactCardFlip isFlipped={selected === "schedule" || selected === "prizes"} flipDirection="horizontal" containerStyle={returnHeight()}>
-                                <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} className="flex w-full h-48 md:h-96 items-center justify-center flex-col m-auto">
-                                    <div className="flex w-full h-full justify-center items-center">
-                                        <img alt="about" src={aboutPic} className={cardZIndex()}></img>
-                                    </div>
-                                </ScrollAnimation>
-                                {setDescription("about")}
-                            </ReactCardFlip>
-                        </div>
-                    </div>
-                    <div className="flex flex-col justify-center w-28 md:w-80 h-full m-auto">
-                        <div className="flex w-full h-full justify-center items-center">
-                            <ReactCardFlip isFlipped={selected === "about" || selected === "prizes"} flipDirection="horizontal" containerStyle={returnHeight()}>
-                                <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} className="flex w-full h-48 md:h-96 items-center justify-center flex-col m-auto">
-                                    <div className="flex w-full h-full justify-center items-center">
-                                        <img alt="schedule" src={schedulePic} className={cardZIndex()}></img>
-                                    </div>
-                                </ScrollAnimation>
-                                {setDescription("schedule")}
-                            </ReactCardFlip>
-                        </div>
-                    </div>
-                    <div className="flex flex-col justify-center w-28 md:w-80 h-full m-auto">
-                        <div className="flex w-full h-full justify-center items-center">
-                            <ReactCardFlip isFlipped={selected === "about" || selected === "schedule"} flipDirection="horizontal" containerStyle={returnHeight()}>
-                                <ScrollAnimation animateIn="fadeInLeft" animateOnce={true} className="flex w-full h-48 md:h-96 items-center justify-center flex-col m-auto">
-                                    <div className="flex w-full h-full justify-center items-center">
-                                        <img alt="prizes" src={prizesPic} className={cardZIndex()}></img>
-                                    </div>
-                                </ScrollAnimation>
-                                {setDescription("prizes")}
-                            </ReactCardFlip>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     );
