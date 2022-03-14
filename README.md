@@ -1,4 +1,57 @@
-# Getting Started with Create React App
+# Getting Started with this app
+
+## Steps to get app running:
+
+1. Have latest versions of Node and NPM installed.
+2. Open terminal in root folder.
+3. Run `npm install`
+4. Run `npm start`
+
+## Project Structure:
+
+Here is a breakdown of the structure and their purposes:
+
+hack-uconn-website (root)
+    public
+        index.html
+        icons (pngs, icos, etc.)
+    src
+        assets
+        components
+        pages
+            page1
+                components
+                Page1.js
+            page2
+                components
+                Page2.js
+        services
+        utils
+    .gitignore
+    package(-lock).jsons
+    README.md
+
+
+- public: stuff for building the app. Most of the time not relevant until you deploy the app.
+- index.html: where meta data is displayed for page.
+
+- src: where all the app lives (for the most part).
+- assets: where all image and text content will live. Broken down into text and images folder. In text/image folder, should break down further to pages / other type of folder to keep it organized.
+- components: where general components that are going to be shared across the app will live. Can create sub-folders in here as well to keep it organized.
+- pages: Where entire pages will live. Pages will probably be a lot of smaller components living in the big page. Can have its own components folder if there is components that are specific to it (shouldn't be many).
+- services: where a lot of outside / 3rd party logic will live (example: if you want to make an HTTP request, you should probably make an HTTP request to handle that). You can also move generic logic to services. Don't get this confused with utilities.
+- utilities: fuctions that perform a static action (example: say you want to have a global function that can parse a string a certain way every single time and needs to be used by many components. You should probably make it a utility function). You can also group these into sub-folders.
+
+- .gitignore: files Git will ignore when adding/committing/pushing to Github via Git.
+- package(-lock).jsons: files for project configurations and dependencies
+- README.md: page you're reading right now. Used for information
+
+
+
+
+
+# CREATE REACT APP README BELOW
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
