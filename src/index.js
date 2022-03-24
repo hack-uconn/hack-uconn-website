@@ -2,10 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './utils/reportWebVitals';
+import AboutPage from './pages/AboutPage/AboutPage';
 
 ReactDOM.render(
   <React.StrictMode>
     <h1>This is a placeholder. Let's get this rebuild done!</h1>
+    <AboutPage></AboutPage>
   </React.StrictMode>,
   document.getElementById('root')
 );
