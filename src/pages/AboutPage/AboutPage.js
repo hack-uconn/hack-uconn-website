@@ -1,7 +1,7 @@
 import React from "react";
-import temp1 from "J:\\Downloads\\Code\\hack-uconn-website\\src\\assets\\images\\AboutPage\\temp1.jpg";
-import temp2 from "J:\\Downloads\\Code\\hack-uconn-website\\src\\assets\\images\\AboutPage\\temp2.jpg";
-import temp3 from "J:\\Downloads\\Code\\hack-uconn-website\\src\\assets\\images\\AboutPage\\temp3.jpg";
+import temp1 from "../../assets/images/AboutPage/temp1.jpg";
+import temp2 from "../../assets/images/AboutPage/temp2.jpg";
+import temp3 from "../../assets/images/AboutPage/temp3.jpg";
 
 class AboutPage extends React.Component {
     render() {

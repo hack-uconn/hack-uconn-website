@@ -2,12 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './utils/reportWebVitals';
-import AboutPage from './pages/AboutPage/AboutPage';
+//import AboutPage from './pages/AboutPage/AboutPage';
+import FAQPage from './pages/FAQPage/FAQPage';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import LandingPage from './pages/LandingPage/LandingPage';
 
 ReactDOM.render(
   <React.StrictMode>
+    <LandingPage />
     <h1>This is a placeholder. Let's get this rebuild done!</h1>
-    <AboutPage></AboutPage>
+    <FAQPage />
   </React.StrictMode>,
   document.getElementById('root')
 );
