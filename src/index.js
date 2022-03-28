@@ -5,13 +5,14 @@ import reportWebVitals from './utils/reportWebVitals';
 //import AboutPage from './pages/AboutPage/AboutPage';
 import FAQPage from './pages/FAQPage/FAQPage';
 import 'bootstrap/dist/css/bootstrap.min.css'
-import LandingPage from './pages/LandingPage/LandingPage';
+import HomePage from './pages/HomePage/HomePage';
+import NavbarPage from './pages/NavbarPage/NavbarPage'
 
 ReactDOM.render(
   <React.StrictMode>
-    <LandingPage />
+    <div className='gradient'>
+    </div>
     <h1>This is a placeholder. Let's get this rebuild done!</h1>
-    <FAQPage />
   </React.StrictMode>,
   document.getElementById('root')
 );

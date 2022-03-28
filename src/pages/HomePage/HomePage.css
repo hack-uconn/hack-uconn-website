@@ -1,0 +1,35 @@
+.landing {
+    background-image:url('../../assets/images/HomePage/background.png');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+}
+
+.gear {
+    max-height: 25rem;
+}
+
+.head {
+    max-height: 25rem;
+    left: .24rem;
+}
+
+@keyframes rotation-gears {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.rotate-gears {
+    filter: drop-shadow(0 0 0.5rem #000000);
+    animation: rotation-gears 15s infinite linear;
+}

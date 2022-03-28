@@ -1,26 +1,56 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Accordion from 'react-bootstrap/Accordion';
+import './FAQPage.css';
 
 class FAQPage extends React.Component {
     render() {
         return(
-            <Container fluid="sm">
-                <Accordion>
-                    <Accordion.Item eventKey="0">
-                        <Accordion.Header>Question 1</Accordion.Header>
-                        <Accordion.Body>
-                            Answer!
-                        </Accordion.Body>
-                    </Accordion.Item>
-                    <Accordion.Item eventKey="1">
-                        <Accordion.Header>Question 2</Accordion.Header>
-                        <Accordion.Body>
-                            Answer!
-                        </Accordion.Body>
-                    </Accordion.Item>
-                </Accordion>
-            </Container>
+            <div>
+                <h1 className="headers">FAQ</h1>
+                <Container fluid="sm">
+                    <Accordion>
+                        <Accordion.Item eventKey="0">
+                            <Accordion.Header>
+                                Question 1
+                            </Accordion.Header>
+                            <Accordion.Body>
+                                Answer!
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="1">
+                            <Accordion.Header>
+                                Question 2
+                            </Accordion.Header>
+                            <Accordion.Body>
+                                Answer!
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="2">
+                            <Accordion.Header>
+                                Question 3
+                            </Accordion.Header>
+                            <Accordion.Body>
+                                Answer!
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="3">
+                            <Accordion.Header>
+                                Question 4
+                            </Accordion.Header>
+                            <Accordion.Body>
+                                Answer!
+                            </Accordion.Body>
+                        </Accordion.Item>
+                        <Accordion.Item eventKey="4">
+                            <Accordion.Header>Question 5</Accordion.Header>
+                            <Accordion.Body>
+                                Answer!
+                            </Accordion.Body>
+                        </Accordion.Item>
+                    </Accordion>
+                </Container>
+            </div>
         );
     }
 }
