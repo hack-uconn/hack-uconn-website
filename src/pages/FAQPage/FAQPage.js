@@ -1,7 +1,10 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Accordion from 'react-bootstrap/Accordion';
+import Card from 'react-bootstrap/Card'
+import Button from "react-bootstrap/Button";
 import './FAQPage.css';
+import { AccordionCollapse } from "react-bootstrap";
 
 class FAQPage extends React.Component {
     render() {
@@ -9,12 +12,12 @@ class FAQPage extends React.Component {
             <div>
                 <h1 className="headers">FAQ</h1>
                 <Container fluid="sm">
-                    <Accordion>
-                        <Accordion.Item eventKey="0">
-                            <Accordion.Header>
+                    <Accordion className="custom-accordion">
+                        <Accordion.Item className="custom-accordion-item" eventKey="0">
+                            <Accordion.Header className="custom-accordion-header">
                                 Question 1
                             </Accordion.Header>
-                            <Accordion.Body>
+                            <Accordion.Body className="custom-accordion-body">
                                 Answer!
                             </Accordion.Body>
                         </Accordion.Item>

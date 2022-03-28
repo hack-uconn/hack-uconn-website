@@ -3,8 +3,14 @@
     color: white;
 }
 
-.faq {
-    background: black;
-    color: white;
-    border: 5px red;
+.custom-accordion {
+    border: none;
+    outline: none;
+}
+
+.custom-accordion-body {
+    background: #815AE0 !important;
+    color: white !important;
+    border: none;
+    outline: none;
 }

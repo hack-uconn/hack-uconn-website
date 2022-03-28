@@ -10,9 +10,14 @@ import NavbarPage from './pages/NavbarPage/NavbarPage'
 
 ReactDOM.render(
   <React.StrictMode>
+    <HomePage />
     <div className='gradient'>
+      <FAQPage />
+      <FAQPage />
+      <FAQPage />
+      <FAQPage />
+      <FAQPage />
     </div>
-    <h1>This is a placeholder. Let's get this rebuild done!</h1>
   </React.StrictMode>,
   document.getElementById('root')
 );

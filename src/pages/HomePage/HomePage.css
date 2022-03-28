@@ -1,14 +1,16 @@
-.landing {
+.main {
     background-image:url('../../assets/images/HomePage/background.png');
     background-size:cover;
     background-position:center;
+}
+
+.landing {
     height:100vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
     text-align:center;
-    padding:0 20px;
 }
 
 .gear {
@@ -18,6 +20,11 @@
 .head {
     max-height: 25rem;
     left: .24rem;
+}
+
+.register {
+    background-color: #13D2CC;
+    border: none;
 }
 
 @keyframes rotation-gears {

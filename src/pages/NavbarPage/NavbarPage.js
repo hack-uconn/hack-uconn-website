@@ -15,16 +15,16 @@ class NavbarPage extends React.Component {
                             src={navbarLogo}
                             height="26rem"
                             className="d-inline-block align-top"
-                            alt="React Bootstrap logo"
+                            alt="HackUConn Navbar Logo"
                         />
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-                        <Nav className="ms-auto">
-                            <Nav.Link href="https://forms.gle/mR8YVdkxNTmkgcts8"><b>Register</b></Nav.Link>
-                            <Nav.Link href="#home"><b>Home</b></Nav.Link>
-                            <Nav.Link href="#about"><b>About</b></Nav.Link>
-                            <Nav.Link href="FAQ"><b>FAQ</b></Nav.Link>
+                        <Nav>
+                            <Nav.Link className="navText" href="https://forms.gle/mR8YVdkxNTmkgcts8"><b>Register</b></Nav.Link>
+                            <Nav.Link className="navText" href="#home"><b>Home</b></Nav.Link>
+                            <Nav.Link className="navText" href="#about"><b>About</b></Nav.Link>
+                            <Nav.Link className="navText" href="FAQ"><b>FAQ</b></Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
