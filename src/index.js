@@ -6,16 +6,11 @@ import reportWebVitals from './utils/reportWebVitals';
 import FAQPage from './pages/FAQPage/FAQPage';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import HomePage from './pages/HomePage/HomePage';
-import NavbarPage from './pages/NavbarPage/NavbarPage'
 
 ReactDOM.render(
   <React.StrictMode>
     <HomePage />
     <div className='gradient'>
-      <FAQPage />
-      <FAQPage />
-      <FAQPage />
-      <FAQPage />
       <FAQPage />
     </div>
   </React.StrictMode>,

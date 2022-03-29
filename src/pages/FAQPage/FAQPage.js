@@ -1,16 +1,13 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 import Accordion from 'react-bootstrap/Accordion';
-import Card from 'react-bootstrap/Card'
-import Button from "react-bootstrap/Button";
 import './FAQPage.css';
-import { AccordionCollapse } from "react-bootstrap";
 
 class FAQPage extends React.Component {
     render() {
         return(
             <div>
-                <h1 className="headers">FAQ</h1>
+                <h1 className="headers pt-5 pb-2">FAQ</h1>
                 <Container fluid="sm">
                     <Accordion className="custom-accordion">
                         <Accordion.Item className="custom-accordion-item" eventKey="0">

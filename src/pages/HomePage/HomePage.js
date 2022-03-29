@@ -12,15 +12,17 @@ class HomePage extends React.Component {
             <div className='main'>
                 <NavbarPage />
                 <div className='landing'>
-                    <div className="position-relative">
-                        <Image alt="gear" className="position-relative gear mt-5 rotate-gears" src={gear} />
-                        <Image alt="head" className="position-absolute head mt-5" src={head} />
+                    <div className="position-relative mb-3">
+                        <Image alt="gear" className="position-relative gear rotate-gears" src={gear} />
+                        <Image alt="head" className="position-absolute head" src={head} />
                     </div>
-                    <h1>Innovating Well-Being For Us All</h1>
-                    <p>21 hour long Hackathon ● April 9th - 10th, 2022</p>
-                    <a href="https://forms.gle/mR8YVdkxNTmkgcts8">
-                        <Button variant="primary" className="register" size="lg">Register</Button>
-                    </a>
+                    <div className="mt-2">
+                        <h1>Innovating Well-Being For Us All</h1>
+                        <h5>21 hour long Hackathon ● April 9th - 10th, 2022</h5>
+                        <a href="https://forms.gle/mR8YVdkxNTmkgcts8">
+                            <Button variant="primary" className="register mt-3" size="lg">Register</Button>
+                        </a>
+                    </div>
                 </div>
             </div>
         )

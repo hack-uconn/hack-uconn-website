@@ -8,12 +8,12 @@ import "./NavbarPage.css"
 class NavbarPage extends React.Component {
     render() {
         return (
-            <Navbar variant="dark" className="navbar" expand="lg">
+            <Navbar variant="dark" className="navbar" expand="md">
                 <Container>
                     <Navbar.Brand href="#home">
                         <img 
                             src={navbarLogo}
-                            height="26rem"
+                            height="40rem"
                             className="d-inline-block align-top"
                             alt="HackUConn Navbar Logo"
                         />

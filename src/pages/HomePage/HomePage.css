@@ -4,6 +4,15 @@
     background-position:center;
 }
 
+.main h1 {
+    color: #815AE0;
+    font-family: 'Sen', sans-serif;
+}
+
+.main h3 {
+    font-family: 'Sen', sans-serif;
+}
+
 .landing {
     height:100vh;
     display:flex;
@@ -14,17 +23,24 @@
 }
 
 .gear {
-    max-height: 25rem;
+    margin-top: 0;
+    max-height: 26rem;
 }
 
 .head {
-    max-height: 25rem;
+    margin-top: 0;
+    max-height: 26rem;
     left: .24rem;
 }
 
 .register {
     background-color: #13D2CC;
     border: none;
+    font-family: 'Sen', sans-serif;
+}
+
+.register:hover {
+    background-color: #815AE0;
 }
 
 @keyframes rotation-gears {
