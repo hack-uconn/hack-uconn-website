@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './utils/reportWebVitals';
-//import AboutPage from './pages/AboutPage/AboutPage';
+import AboutPage from './pages/AboutPage/AboutPage';
 import FAQPage from './pages/FAQPage/FAQPage';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import HomePage from './pages/HomePage/HomePage';
@@ -11,6 +11,7 @@ ReactDOM.render(
   <React.StrictMode>
     <HomePage />
     <div className='gradient'>
+      <AboutPage />
       <FAQPage />
     </div>
   </React.StrictMode>,
