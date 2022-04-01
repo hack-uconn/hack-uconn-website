@@ -1,26 +1,32 @@
-h1 {
+.aboutHeader {
     text-align: center;
-    font-family: 'Sen', sans-serif;
-    font-size: 40px;
+    font-family: "Avenir Next Condensed";
+    color: white;
+    font-size: 3.5rem;
 }
 
 .imgLeft {
-    max-height: 25rem;
+    max-height: 16rem;
 }
 
 .imgRight {
-    max-height: 25rem;
+    max-height: 16rem;
 }
 
-.textLeft {
-    text-align: center;
+.captionHeader {
     font-family: 'Sen', sans-serif;
-    font-size: 40px;
+    color: white;
+    font-size: 1.7rem;
 }
 
-.textRight {
-    text-align: center;
+.captionText {
     font-family: 'Sen', sans-serif;
-    font-size: 40px;
+    color: white;
+    font-size: 1.05rem;
 }
 
+.aboutText {
+    font-family: 'Sen', sans-serif;
+    color: white;
+    font-size: 1.4em;
+}
