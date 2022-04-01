@@ -37,6 +37,7 @@
     background-color: #13D2CC !important;
     border: none !important;
     font-family: 'Sen', sans-serif !important;
+    transition: .3s;
 }
 
 .register:hover {

@@ -7,8 +7,9 @@
     color: white !important;
     font-family: 'Sen', sans-serif !important;
     font-size: 1.5rem !important;
+    transition: all .1s ease-in-out !important; 
 }
 
 .navText:hover {
-    font-size: 1.55rem !important;
+    transform: scale(1.1);
 }

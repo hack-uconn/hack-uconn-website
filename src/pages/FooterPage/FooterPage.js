@@ -9,8 +9,8 @@ class FooterPage extends React.Component {
                 <a href="https://www.instagram.com/hackuconn/">
                     <img className="instagram mb-4 mt-5"  src={instagramLogo} alt="Instagram Logo"></img>
                 </a>
-                <p className="headers">University of Connecticut</p>
-                <p className="headers">Contact us at hackuconn@gmail.com</p>
+                <p className="footerHeaders">University of Connecticut</p>
+                <p className="footerHeaders">Contact us at hackuconn@gmail.com</p>
             </div>
         );
     }

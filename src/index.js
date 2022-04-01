@@ -6,7 +6,8 @@ import AboutPage from './pages/AboutPage/AboutPage';
 import FAQPage from './pages/FAQPage/FAQPage';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import HomePage from './pages/HomePage/HomePage';
-import PastProjectsPage from './pages/PastProjectsPage/PastProjectsPage'
+import PastProjectsPage from './pages/PastProjectsPage/PastProjectsPage';
+import FooterPage from './pages/FooterPage/FooterPage';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -15,6 +16,7 @@ ReactDOM.render(
       <AboutPage />
       <FAQPage />
       <PastProjectsPage />
+      <FooterPage />
     </div>
   </React.StrictMode>,
   document.getElementById('root')
