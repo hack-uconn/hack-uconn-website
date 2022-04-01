@@ -6,6 +6,7 @@ import Card from 'react-bootstrap/Card'
 import temp1 from "../../assets/images/AboutPage/temp1.jpg";
 import temp2 from "../../assets/images/AboutPage/temp2.jpg";
 import temp3 from "../../assets/images/AboutPage/temp3.jpg";
+import "./AboutPage.css";
 
 class AboutPage extends React.Component {
     render() {
@@ -15,26 +16,26 @@ class AboutPage extends React.Component {
                 <Row>
                     <Col>
                         <Card>
-                            <Card.Img src = {temp1}></Card.Img>
+                            <Card.Img className = "imgLeft" src = {temp1}></Card.Img>
                         </Card>
                     </Col>
-                    <Col><p>Caption 1: We're diverse</p></Col>
+                    <Col><p className = "textRight">Caption 1: We're diverse</p></Col>
                 </Row>
                 <Row>
-                    <Col><p>Caption 2: We build stuff</p></Col>
+                    <Col><p className = "textLeft">Caption 2: We build stuff</p></Col>
                     <Col>
                         <Card>
-                            <Card.Img src = {temp2}></Card.Img>
+                            <Card.Img className = "imgRight" src = {temp2}></Card.Img>
                         </Card>
                     </Col>
                 </Row>
                 <Row>
                     <Col>
                         <Card>
-                            <Card.Img src = {temp3}></Card.Img>
+                            <Card.Img className = "imgLeft" src = {temp3}></Card.Img>
                         </Card>
                     </Col>
-                    <Col><p>Caption 3: We have prizes: cash prize</p></Col>
+                    <Col><p className = "textRight" >Caption 3: We have prizes: cash prize</p></Col>
                 </Row>
             </Container>
         ) 

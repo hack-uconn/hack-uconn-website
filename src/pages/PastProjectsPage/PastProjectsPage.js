@@ -1,7 +1,7 @@
 import Carousel from 'react-bootstrap/Carousel';
 import React, {useState, Component} from 'react';
 import './PastProjectsPage.css';
-import Slider from "react-slick";
+import Slider from 'react-slick';
 import pic1 from '../../assets/images/AboutPage/temp1.jpg';
 import pic2 from '../../assets/images/AboutPage/temp2.jpg';
 import pic3 from  '../../assets/images/AboutPage/temp3.jpg';
