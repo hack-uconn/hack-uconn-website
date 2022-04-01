@@ -34,13 +34,13 @@
 }
 
 .register {
-    background-color: #13D2CC;
-    border: none;
-    font-family: 'Sen', sans-serif;
+    background-color: #13D2CC !important;
+    border: none !important;
+    font-family: 'Sen', sans-serif !important;
 }
 
 .register:hover {
-    background-color: #815AE0;
+    background-color: #815AE0 !important;
 }
 
 @keyframes rotation-gears {
