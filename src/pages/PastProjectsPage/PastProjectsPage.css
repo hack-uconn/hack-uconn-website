@@ -1,28 +1,6 @@
 @import "~slick-carousel/slick/slick.css";
 @import "~slick-carousel/slick/slick-theme.css";
 
-.container {
-    padding: 40px;
-   
-  }
-  
-.slide img{
-    width:20rem;
-    margin: 0 auto;
-}
-
-
-.slide{
-      transform: scale(0.9);
-      transition: transform 300ms;
-      opacity: 0.5;
-    }
-    
-.activeSlide{
-      transform: scale(1.1);
-      opacity: 1;
-    }
-
 
     .content {
       max-width: 1280px;
@@ -47,7 +25,7 @@
     }
     
     .card-header span {
-      color: #2d3748;
+      color: #ffffbd;
     }
     
     .card-image {
@@ -57,9 +35,9 @@
       object-fit: cover;
     }
     
-    .card button {
+    .card-button {
       display: inline-block;
-      background-color: #14c8eb;
+      background-color: #c471dc;
       color: #fff;
       border: none;
       padding: 1.5em 1.6em;
@@ -73,15 +51,7 @@
       transition: background-color 0.5s ease-out;
     }
     
-    .card button:focus {
-      outline: none;
-    }
-    
-    .card button:hover {
-      background-color: #0ea8c7;
-    }
-    
     .text-info {
-      padding: 1rem 1.5rem;
-      margin-bottom: 2.5rem;
+      padding: 1rem 1rem;
+     
     }
