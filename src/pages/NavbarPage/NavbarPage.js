@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import navbarLogo from "../../assets/images/NavbarPage/navbarLogo.png"
+import Link from 'react-scroll';
 import "./NavbarPage.css"
 
 class NavbarPage extends React.Component {
@@ -22,9 +23,9 @@ class NavbarPage extends React.Component {
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Nav>
                             <Nav.Link className="navText" href="https://forms.gle/mR8YVdkxNTmkgcts8"><b>Register</b></Nav.Link>
-                            <Nav.Link className="navText" href="#home"><b>Home</b></Nav.Link>
                             <Nav.Link className="navText" href="#about"><b>About</b></Nav.Link>
-                            <Nav.Link className="navText" href="FAQ"><b>FAQ</b></Nav.Link>
+                            <Nav.Link className="navText" href="#faq"><b>FAQ</b>
+                            </Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
