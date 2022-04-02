@@ -3,7 +3,6 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
 import navbarLogo from "../../assets/images/NavbarPage/navbarLogo.png"
-import Link from 'react-scroll';
 import "./NavbarPage.css"
 
 class NavbarPage extends React.Component {
