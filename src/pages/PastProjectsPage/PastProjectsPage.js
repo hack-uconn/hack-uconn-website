@@ -74,7 +74,7 @@ function PastProjectsPage() {
 
         return (
             <div className='content'>
-      <h3 align="center">Past Projects</h3>
+              <h1 className="aboutHeader">Past Projects</h1>
       <Slider {...settings}>
         {projectCards.map((card, index) => (
      
