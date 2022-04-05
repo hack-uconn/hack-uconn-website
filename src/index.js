@@ -16,6 +16,7 @@ ReactDOM.render(
     <div className='gradient'>
       <AboutPage />
       <FAQPage />
+      <PastProjectsPage/>
       <FooterPage />
     </div>
   </React.StrictMode>,
