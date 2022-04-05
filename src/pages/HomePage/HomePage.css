@@ -23,14 +23,26 @@
 }
 
 .gear {
+    max-width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
     margin-top: 0;
     max-height: 26rem;
 }
 
 .head {
+    max-width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
     margin-top: 0;
     max-height: 26rem;
     left: .24rem;
+}
+
+@include media-breakpoint-up(sm) {
+    .head {
+      max-height: 10rem;
+    }
 }
 
 .register {

@@ -15,7 +15,7 @@ class FAQPage extends React.Component {
                                 What is a hackathon?
                             </Accordion.Header>
                             <Accordion.Body className="custom-accordion-body">
-                            A hackathon is a multi-day event where students from all over the world can come together to build projects that have the potential to change the world. The great thing about hackathons is that they teach students about software and hardware development while also allowing them to explore their creativity and ideas with no limits. By the end, students will learn new skills and make valuable connections for the future.
+                                A hackathon is a multi-day event where students from all over the world can come together to build projects that have the potential to change the world. The great thing about hackathons is that they teach students about software and hardware development while also allowing them to explore their creativity and ideas with no limits. By the end, students will learn new skills and make valuable connections for the future.
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="1">
@@ -55,7 +55,7 @@ class FAQPage extends React.Component {
                                 Will food be provided?
                             </Accordion.Header>
                             <Accordion.Body>
-                                Yes! Breakfast, lunch, and dinner will be provided in addition to snacks throughout the event.
+                                Yes! Breakfast and dinner will be provided in addition to snacks throughout the event.
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="6">

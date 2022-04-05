@@ -6,6 +6,7 @@ import head from '../../assets/images/HomePage/headTemp.png';
 import gear from '../../assets/images/HomePage/gear.png';
 import text from '../../assets/images/HomePage/hackuconnText.png';
 import NavbarPage from '../NavbarPage/NavbarPage';
+import Container from 'react-bootstrap/Container';
 
 class HomePage extends React.Component {
     render() {
