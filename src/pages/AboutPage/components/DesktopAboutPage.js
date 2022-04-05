@@ -14,7 +14,7 @@ class AboutPage extends React.Component {
             <div className="aboutComponent pt-5">
                 <Container id="about">
                     <h1 className="aboutHeader">What is HackUConn?</h1>
-                    <p className="aboutText">HackUConn is a 18-hour marathon event that brings together students of all disciplines in hopes of finding innovative solutions for today’s biggest problems. Students are provided mentoring and workshops from industry professionals and are tasked with bringing their solutions to life.</p>
+                    <p className="aboutText">HackUConn is a 20-hour marathon event that brings together students of all disciplines in hopes of finding innovative solutions for today’s biggest problems. Students are provided mentoring and workshops from industry professionals and are tasked with bringing their solutions to life.</p>
                     <h1 className="aboutHeader pt-5">What Makes Us Unique?</h1>
                     <Row className="align-items-center pt-5">
                         <Col sm={4}>
