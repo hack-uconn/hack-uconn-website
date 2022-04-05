@@ -8,18 +8,15 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import HomePage from './pages/HomePage/HomePage';
 import PastProjectsPage from './pages/PastProjectsPage/PastProjectsPage';
 import FooterPage from './pages/FooterPage/FooterPage';
+import TestimonialsPage from './pages/TestimonialsPage/TestimonialsPage';
 import MentorPage from './pages/MentorPage/MentorPage';
 
 ReactDOM.render(
   <React.StrictMode>
     <HomePage />
-    <div className='gradient'>
-      <AboutPage />
-      <FAQPage />
-      <PastProjectsPage/>
-      <TestimonialsPage/>
-      <FooterPage />
-    </div>
+    <AboutPage />
+    <FAQPage />
+    <FooterPage />
   </React.StrictMode>,
   document.getElementById('root')
 );

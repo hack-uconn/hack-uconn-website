@@ -6,7 +6,7 @@ import './FAQPage.css';
 class FAQPage extends React.Component {
     render() {
         return(
-            <div id="faq">
+            <div id="faq" className="faqComponent">
                 <h1 className="headers pt-5 pb-2">FAQ</h1>
                 <Container fluid="sm">
                     <Accordion className="custom-accordion">

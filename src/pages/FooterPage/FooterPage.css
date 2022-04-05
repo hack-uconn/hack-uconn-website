@@ -1,6 +1,7 @@
-.footer {
+.footerComponent {
     align-items: center;
     text-align: center;
+    background-color: #815AE0;
 }
 
 .footerHeaders {
