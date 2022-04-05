@@ -1,0 +1,28 @@
+.aboutComponent {
+    background-color: #F4FBFB;
+}
+
+.aboutHeader {
+    text-align: center;
+    font-family: "Avenir Next Condensed";
+    color: black;
+    font-size: 3.5rem;
+}
+
+.captionHeader {
+    font-family: 'Sen', sans-serif;
+    color: black;
+    font-size: 1.7rem;
+}
+
+.captionText {
+    font-family: 'Sen', sans-serif;
+    color: black;
+    font-size: 1.05rem;
+}
+
+.aboutText {
+    font-family: 'Sen', sans-serif;
+    color: black;
+    font-size: 1.4em;
+}

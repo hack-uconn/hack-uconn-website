@@ -1,0 +1,32 @@
+@import url(//db.onlinewebfonts.com/c/2919517cb534a742df4474836ca67452?family=Avenir+Next+Condensed);
+@font-face {
+    font-family: "Avenir Next Condensed"; 
+    src: url("//db.onlinewebfonts.com/t/2919517cb534a742df4474836ca67452.eot"); 
+    src: url("//db.onlinewebfonts.com/t/2919517cb534a742df4474836ca67452.eot?#iefix") format("embedded-opentype"), 
+    url("//db.onlinewebfonts.com/t/2919517cb534a742df4474836ca67452.woff2") format("woff2"), 
+    url("//db.onlinewebfonts.com/t/2919517cb534a742df4474836ca67452.woff") format("woff"), 
+    url("//db.onlinewebfonts.com/t/2919517cb534a742df4474836ca67452.ttf") format("truetype"), 
+    url("//db.onlinewebfonts.com/t/2919517cb534a742df4474836ca67452.svg#Avenir Next Condensed") format("svg"); 
+}
+
+.faqComponent {
+    background-color: #815AE0;
+}
+
+.headers {
+    text-align: center;
+    color: white;
+    font-family: "Avenir Next Condensed";
+    font-size: 3.5rem;
+}
+
+.custom-accordion {
+    font-family: 'Sen', sans-serif;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+.custom-accordion-header {
+    font-size: 1.2rem;
+}

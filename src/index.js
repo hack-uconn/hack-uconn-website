@@ -1,14 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
+import reportWebVitals from './utils/reportWebVitals';
+import AboutPage from './pages/AboutPage/AboutPage';
+import FAQPage from './pages/FAQPage/FAQPage';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import HomePage from './pages/HomePage/HomePage';
+import PastProjectsPage from './pages/PastProjectsPage/PastProjectsPage';
+import FooterPage from './pages/FooterPage/FooterPage';
+import TestimonialsPage from './pages/TestimonialsPage/TestimonialsPage';
+import MentorPage from './pages/MentorPage/MentorPage';
 
 ReactDOM.render(
-  <BrowserRouter>
-    <App/>
-  </BrowserRouter>,
+  <React.StrictMode>
+    <HomePage />
+    <AboutPage />
+    <FAQPage />
+    <FooterPage />
+  </React.StrictMode>,
   document.getElementById('root')
 );
 

@@ -1,0 +1,21 @@
+.footerComponent {
+    align-items: center;
+    text-align: center;
+    background-color: #815AE0;
+}
+
+.footerHeaders {
+    font-family: 'Sen', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    margin-bottom: 0;
+}
+
+.instagram {
+    max-height: 3rem;
+    transition: all .2s ease-in-out; 
+}
+
+.instagram:hover {
+    transform: scale(1.1);
+}
