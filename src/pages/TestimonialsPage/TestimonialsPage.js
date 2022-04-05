@@ -3,7 +3,39 @@ import ReactCardCarousel from "react-card-carousel";
 import pic1 from '../../assets/images/AboutPage/temp1.jpg';
 import pic2 from '../../assets/images/AboutPage/temp2.jpg';
 import pic3 from  '../../assets/images/AboutPage/temp3.jpg';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
+import './TestimonialsPage.css';
 const images=[pic1,pic2,pic3];
+
+const testimonials = [
+    {
+      imageSrc:
+        pic1,
+      title: 'HackUConn 2019',
+      description: 'Lorem ipsum dolor sit amet, consectur dolori',
+      link: 'https://google.com'
+      
+    },
+    {
+      imageSrc:
+        pic2,
+      title: 'HackUConn 2020',
+      description: 'Lorem ipsum dolor sit amet, consectur dolori',
+      link:'https://facebook.com'
+     
+    },
+    {
+      imageSrc:
+        pic3,
+      title: 'HackUConn 2021',
+      description: 'Lorem ipsum dolor sit amet, consectur dolori',
+      link:'https://twitter.com'
+      
+    },
+  
+  ]
+
 class TestimonialsPage extends Component{
 
     
@@ -13,10 +45,10 @@ class TestimonialsPage extends Component{
           position: "relative",
           height: "100vh",
           width: "100%",
-          display: "flex",
+          
           flex: 1,
           justifyContent: "center",
-          alignItems: "middle"
+          alignItems: "left"
         };
       }
       
@@ -24,12 +56,10 @@ class TestimonialsPage extends Component{
         return {
           height: "200px",
           width: "400px",
-          paddingTop: "80px",
+          
           textAlign: "center",
           background: "#52C0F5",
           color: "#FFF",
-          fontFamily: "sans-serif",
-          fontSize: "12px",
           textTransform: "uppercase",
           borderRadius: "10px",
           boxSizing: "border-box"
@@ -38,18 +68,25 @@ class TestimonialsPage extends Component{
 
       render() {
         return (
+            
           <div style={TestimonialsPage.CONTAINER_STYLE}>
+          <h1 style={{fontFamily: "Avenir Next Condensed",
+          color: "white",
+          fontSize: "3.5rem",textAlign:"center", lineHeight:"200px",verticalAlign:"middle"}}> Testimonials </h1>
             <ReactCardCarousel
               autoplay={true}
               alignment="vertical"
               autoplay_speed={2500}
             >
-            {images.map((img, idx)=>(
-                <div style={TestimonialsPage.CARD_STYLE}>
-                <img src={img}/>
-                
+            
+            {testimonials.map((t, idx)=>(
+                <div>
+                <img  style={TestimonialsPage.CARD_STYLE} src={t.imageSrc}/>
+                <p>{t.description}</p>
                 </div>
+                
             ))}
+            
             </ReactCardCarousel>
           </div>
         );
