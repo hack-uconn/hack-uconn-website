@@ -24,25 +24,15 @@
 
 .gear {
     max-width: 100%;
-    padding-right: 1rem;
-    padding-left: 1rem;
     margin-top: 0;
     max-height: 26rem;
 }
 
 .head {
     max-width: 100%;
-    padding-right: 1rem;
-    padding-left: 1rem;
     margin-top: 0;
     max-height: 26rem;
     left: .24rem;
-}
-
-@include media-breakpoint-up(sm) {
-    .head {
-      max-height: 10rem;
-    }
 }
 
 .register {
@@ -68,4 +58,19 @@
 .rotate-gears {
     filter: drop-shadow(0 0 0.5rem #000000);
     animation: rotation-gears 15s infinite linear;
+}
+
+@media (max-width: 576px) {
+    .gear {
+        max-width: 100%;
+        margin-top: 0;
+        max-height: 20rem;
+    }
+
+    .head {
+        max-width: 100%;
+        margin-top: 0;
+        max-height: 20rem;
+        left: .24rem;
+    }
 }
