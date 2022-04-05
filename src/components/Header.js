@@ -32,8 +32,8 @@ export default function Header(props) {
                 <div className="absolute top-20 right-0 w-full h-56 bg-header_menu z-50 shadow-2xl">
                     <div className="flex flex-col w-full h-full m-auto">
                         <div className="flex m-auto bg-header_mobile_register">
-                            <a target="_blank" rel="noreferrer" href="https://forms.gle/mR8YVdkxNTmkgcts8">
-                                <button className="text-text_light text-2xl lightText focus:outline-none px-6 max-w-min h-full">Register</button>
+                            <a target="_blank" rel="noreferrer">
+                                <button className="text-text_light text-2xl lightText focus:outline-none px-6 max-w-min h-full">Register (closed)</button>
                             </a>
                         </div>
                         <div className="flex m-auto">
@@ -80,8 +80,8 @@ export default function Header(props) {
                     </div>
                 </div>
                 <div className="flex h-full flex-row"> 
-                    <a target="_blank" rel="noreferrer" href="https://forms.gle/mR8YVdkxNTmkgcts8">
-                        <button className="text-text_light text-xl lightText bg-uconn_register focus:outline-none hover:bg-topic_dark transition duration-200 ease-in-out px-6 h-full active:bg-topic_dark">Register</button>
+                    <a target="_blank" rel="noreferrer">
+                        <button className="text-text_light text-xl lightText bg-uconn_register focus:outline-none hover:bg-topic_dark transition duration-200 ease-in-out px-6 h-full active:bg-topic_dark">Register (closed)</button>
                     </a>
                     <button onClick={() => {props.executeScroll(props.aboutRef)}} className="text-text_light text-xl lightText hover:bg-topic_middle focus:outline-none transition duration-200 ease-in-out px-6 max-w-min h-full active:bg-topic_dark">About</button>
                     <button onClick={() => {props.executeScroll(props.faqRef)}} className="text-text_light text-xl lightText hover:bg-topic_middle focus:outline-none transition duration-200 ease-in-out px-6 max-w-min h-full active:bg-topic_dark">FAQ</button>
