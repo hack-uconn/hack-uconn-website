@@ -9,6 +9,7 @@ import HomePage from './pages/HomePage/HomePage';
 import PastProjectsPage from './pages/PastProjectsPage/PastProjectsPage';
 import FooterPage from './pages/FooterPage/FooterPage';
 import MentorPage from './pages/MentorPage/MentorPage';
+import TestimonialsPage from './pages/TestimonialsPage/TestimonialsPage';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -17,6 +18,7 @@ ReactDOM.render(
       <AboutPage />
       <FAQPage />
       <PastProjectsPage/>
+      
       <FooterPage />
     </div>
   </React.StrictMode>,
