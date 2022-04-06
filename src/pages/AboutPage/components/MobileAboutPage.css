@@ -1,5 +1,5 @@
 .aboutComponent {
-    background-color: #F4FBFB;
+    background-color: white;
 }
 
 .aboutHeader {
@@ -11,7 +11,7 @@
 
 .captionHeader {
     font-family: 'Sen', sans-serif;
-    color: black;
+    color: #815AE0;
     font-size: 1.7rem;
 }
 

@@ -1,17 +1,17 @@
 .aboutComponent {
-    background-color: #F4FBFB;
+    background-color: #FFFDFA;
 }
 
 .aboutHeader {
     text-align: center;
     font-family: "Avenir Next Condensed";
     color: black;
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 .captionHeader {
     font-family: 'Sen', sans-serif;
-    color: black;
+    color: #815AE0;
     font-size: 1.7rem;
 }
 
