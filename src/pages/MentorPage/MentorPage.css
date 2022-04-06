@@ -6,3 +6,26 @@
         transform: rotate(359deg);
     }
 }
+
+.mentor-image {
+    object-fit: cover;
+    width:230px;
+    height:230px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name-text{
+    font-family: 'Sen', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.role-text{
+    font-family: 'Sen', sans-serif;
+    color: black;
+    font-size: 1.4em;
+    text-align: center;
+}
