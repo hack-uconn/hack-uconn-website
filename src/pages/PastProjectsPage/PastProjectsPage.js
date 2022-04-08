@@ -39,8 +39,7 @@ function PastProjectsPage() {
     },
   
   ]
-        const images = [pic1, pic2, pic3];
-        const [imgIndex,setImgIndex] = useState(0);
+        
         const settings = {
            
             
@@ -48,8 +47,8 @@ function PastProjectsPage() {
             slidesToShow: 2,
             slidesToScroll: 1,
             autoplay: true,
-            speed: 2500,
-            autoplaySpeed: 2500,
+            speed: 5000,
+            autoplaySpeed: 5000,
             
             responsive: [
               {
@@ -67,25 +66,29 @@ function PastProjectsPage() {
             ],
             cssEase: "linear",
             
-            beforeChange: (current, next) => setImgIndex(next), 
-            pauseOnHover: true,
+            pauseOnHover:false,
+            
+            
             
           };
 
         return (
+          <div>
+          <h1 className="aboutHeader">Past Projects</h1>
             <div className='content'>
-              <h1 className="aboutHeader">Past Projects</h1>
+              
       <Slider {...settings}>
         {projectCards.map((card, index) => (
      
           <div key={index} className='card'>
-            <h4 className='card-header'>{card.title}</h4>
-            <img src={card.imageSrc} alt={card.title} className='card-image' width="100" height="100"/>
-            <p style={{padding:'1rem 1rem'}}> {card.description}</p>
-            <Button className='card-button' href={card.link}>Project Link</Button>
+            <h4 className='card card-header'>{card.title}</h4>
+            <img src={card.imageSrc} alt={card.title} className='card card-image' width="100" height="100"/>
+            <p className='card-description'> {card.description}  </p>
+            <Button className='card-button' href={card.link}> Project Link</Button>
           </div>
         ))}
       </Slider>
+    </div>
     </div>
         );
     };

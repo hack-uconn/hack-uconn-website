@@ -14,7 +14,7 @@ const testimonials = [
         pic1,
       title: 'HackUConn 2019',
       description: 'Lorem ipsum dolor sit amet, consectur dolori',
-      link: 'https://google.com'
+      
       
     },
     {
@@ -22,7 +22,7 @@ const testimonials = [
         pic2,
       title: 'HackUConn 2020',
       description: 'Lorem ipsum dolor sit amet, consectur dolori',
-      link:'https://facebook.com'
+      
      
     },
     {
@@ -30,7 +30,7 @@ const testimonials = [
         pic3,
       title: 'HackUConn 2021',
       description: 'Lorem ipsum dolor sit amet, consectur dolori',
-      link:'https://twitter.com'
+      
       
     },
   

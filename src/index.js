@@ -17,7 +17,9 @@ ReactDOM.render(
     <HomePage />
     <div className='gradient'>
       <AboutPage />
+      
       <FAQPage />
+      <PastProjectsPage/>
       <MentorPage />
       <SponsorsPage />      
       <FooterPage />
