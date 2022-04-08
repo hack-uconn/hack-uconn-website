@@ -8,7 +8,7 @@ class FAQPage extends React.Component {
         return(
             <div id="faq" className="faqComponent">
                 <h1 className="headers pt-2 pb-2">FAQ</h1>
-                <Container fluid="sm">
+                <Container fluid="sm pb-5">
                     <Accordion className="custom-accordion">
                         <Accordion.Item className="custom-accordion-item" eventKey="0">
                             <Accordion.Header className="custom-accordion-header">

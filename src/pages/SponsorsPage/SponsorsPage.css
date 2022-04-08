@@ -1,0 +1,31 @@
+.platinumGear {
+    max-height: 15rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.goldGear {
+    max-height: 12rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.silverGear {
+    max-height: 10rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bronzeGear {
+    max-height: 7rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sponsorsHeader {
+    text-align: center;
+}

@@ -10,6 +10,7 @@ import PastProjectsPage from './pages/PastProjectsPage/PastProjectsPage';
 import FooterPage from './pages/FooterPage/FooterPage';
 import MentorPage from './pages/MentorPage/MentorPage';
 import TestimonialsPage from './pages/TestimonialsPage/TestimonialsPage';
+import SponsorsPage from './pages/SponsorsPage/SponsorsPage';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,7 +19,7 @@ ReactDOM.render(
       <AboutPage />
       <FAQPage />
       <MentorPage />
-      <PastProjectsPage/>
+      <SponsorsPage />      
       <FooterPage />
     </div>
   </React.StrictMode>,
