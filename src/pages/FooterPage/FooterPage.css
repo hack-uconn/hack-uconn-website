@@ -1,18 +1,18 @@
 .footerComponent {
     align-items: center;
     text-align: center;
-    background-color: #FFFDFA;
+    background-color: #815AE0;
 }
 
 .footerHeaders {
     font-family: 'Sen', sans-serif;
     font-size: 1.5rem;
-    color: black;
+    color: white;
     margin-bottom: 0;
 }
 
 .instagram {
-    max-height: 3rem;
+    max-height: 4rem;
     transition: all .2s ease-in-out; 
 }
 

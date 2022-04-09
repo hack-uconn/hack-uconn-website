@@ -11,7 +11,7 @@ import "./DesktopAboutPage.css";
 class AboutPage extends React.Component {
     render() {
         return(
-            <div className="aboutComponent pt-5">
+            <div className="aboutComponent mt-5">
                 <Container id="about">
                     <h1 className="aboutHeader">What is HackUConn?</h1>
                     <p className="aboutText">HackUConn is a 20-hour marathon event that brings together students of all disciplines in hopes of finding innovative solutions for today’s biggest problems. Students are provided mentoring and workshops from industry professionals and are tasked with bringing their solutions to life.</p>

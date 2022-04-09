@@ -23,8 +23,8 @@ class NavbarPage extends React.Component {
                         <Nav>
                             <Nav.Link className="navText" href="https://forms.gle/mR8YVdkxNTmkgcts8"><b>Register</b></Nav.Link>
                             <Nav.Link className="navText" href="#about"><b>About</b></Nav.Link>
-                            <Nav.Link className="navText" href="#faq"><b>FAQ</b>
-                            </Nav.Link>
+                            <Nav.Link className="navText" href="#faq"><b>FAQ</b></Nav.Link>
+                            <Nav.Link className="navText" href="#mentor"><b>Mentors</b></Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
