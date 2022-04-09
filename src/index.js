@@ -20,8 +20,10 @@ ReactDOM.render(
       
       <FAQPage />
       <PastProjectsPage/>
-      <MentorPage />
       <TestimonialsPage/>
+      <MentorPage />
+      
+      
       <SponsorsPage />      
       <FooterPage />
     </div>

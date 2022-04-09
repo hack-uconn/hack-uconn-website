@@ -9,23 +9,25 @@
 
 .mentor-image {
     object-fit: cover;
-    width:230px;
-    height:230px;
+    width:150px;
+    height:150px;
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border:1px solid #815AE0;
 }
 
 .name-text{
     font-family: 'Sen', sans-serif;
     color: black;
     text-align: center;
+    font-size: 1.5em;
 }
 
 .role-text{
     font-family: 'Sen', sans-serif;
-    color: black;
-    font-size: 1.4em;
+    color: #815AE0;
+    font-size: 1em;
     text-align: center;
 }
