@@ -7,8 +7,8 @@ class FAQPage extends React.Component {
     render() {
         return(
             <div id="faq" className="faqComponent">
-                <h1 className="headers pt-2 pb-2">FAQ</h1>
-                <Container fluid="sm">
+                <h1 className="headers pt-2 pb-5">FAQ</h1>
+                <Container fluid="sm pb-5">
                     <Accordion className="custom-accordion">
                         <Accordion.Item className="custom-accordion-item" eventKey="0">
                             <Accordion.Header className="custom-accordion-header">
@@ -23,7 +23,7 @@ class FAQPage extends React.Component {
                                 When and where is it?
                             </Accordion.Header>
                             <Accordion.Body>
-                                HackUconn will be taking place starting April 9th at 4:00PM until 12:00PM on April 10th, 2022. Register for the event at the link above to be notified when details on location are released.
+                                HackUconn will be taking place in Werth Tower at UConn Storrs starting April 9th at 4:00pm until 12:00pm on April 10th, 2022.
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="2">
@@ -92,6 +92,9 @@ class FAQPage extends React.Component {
                         </Accordion.Item>
                     </Accordion>
                 </Container>
+                {/* <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#FFFDFA" fill-opacity="10" d="M0,128L60,144C120,160,240,192,360,186.7C480,181,600,139,720,117.3C840,96,960,96,1080,101.3C1200,107,1320,117,1380,122.7L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+                </svg> */}
             </div>
         );
     }

@@ -5,9 +5,9 @@ import './FooterPage.css'
 class FooterPage extends React.Component {
     render() {
         return (
-            <div className="footerComponent pt-5">
+            <div className="footerComponent pb-4">
                 <a href="https://www.instagram.com/hackuconn/">
-                    <img className="instagram mb-4 mt-5"  src={instagramLogo} alt="Instagram Logo"></img>
+                    <img className="instagram mb-4"  src={instagramLogo} alt="Instagram Logo"></img>
                 </a>
                 <p className="footerHeaders">University of Connecticut</p>
                 <p className="footerHeaders">Contact us at hackuconn@gmail.com</p>
