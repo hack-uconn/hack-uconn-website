@@ -21,6 +21,7 @@ ReactDOM.render(
       <FAQPage />
       <PastProjectsPage/>
       <MentorPage />
+      <TestimonialsPage/>
       <SponsorsPage />      
       <FooterPage />
     </div>

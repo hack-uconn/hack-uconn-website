@@ -3,6 +3,7 @@ import ReactCardCarousel from "react-card-carousel";
 import pic1 from '../../assets/images/AboutPage/temp1.jpg';
 import pic2 from '../../assets/images/AboutPage/temp2.jpg';
 import pic3 from  '../../assets/images/AboutPage/temp3.jpg';
+import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import './TestimonialsPage.css';
@@ -36,6 +37,39 @@ const testimonials = [
   
   ]
 
+  
+  const settings = {
+           
+            
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 5000,
+    autoplaySpeed: 5000,
+    
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 1,
+        },
+      },
+    ],
+    cssEase: "linear",
+    
+    pauseOnHover:false,
+    
+    
+    
+  };
+
 class TestimonialsPage extends Component{
 
     
@@ -45,7 +79,7 @@ class TestimonialsPage extends Component{
           position: "relative",
           height: "100vh",
           width: "100%",
-          
+          backgroundColor:"#815AE0",
           flex: 1,
           justifyContent: "center",
           alignItems: "left"
@@ -69,25 +103,24 @@ class TestimonialsPage extends Component{
       render() {
         return (
             
-          <div style={TestimonialsPage.CONTAINER_STYLE}>
+          <div className='testimonial-container'>
           <h1 style={{fontFamily: "Avenir Next Condensed",
           color: "white",
           fontSize: "3.5rem",textAlign:"center", lineHeight:"200px",verticalAlign:"middle"}}> Testimonials </h1>
-            <ReactCardCarousel
-              autoplay={true}
-              alignment="vertical"
-              autoplay_speed={2500}
+            <Slider
+            {...settings}
             >
             
             {testimonials.map((t, idx)=>(
-                <div>
-                <img  style={TestimonialsPage.CARD_STYLE} src={t.imageSrc}/>
+                <div className='testimonials-card'>
+                <img  className='testimonials-card-image'  src={t.imageSrc}/>
+              
                 <p>{t.description}</p>
                 </div>
                 
             ))}
             
-            </ReactCardCarousel>
+            </Slider>
           </div>
         );
       }
