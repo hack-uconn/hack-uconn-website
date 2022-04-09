@@ -1,9 +1,13 @@
+
+
 .platinumGear {
     max-height: 15rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
 }
+
 
 .goldGear {
     max-height: 12rem;

@@ -1,13 +1,13 @@
 .footerComponent {
     align-items: center;
     text-align: center;
-    background-color: #815AE0;
+    background-color: #FFFDFA;
 }
 
 .footerHeaders {
     font-family: 'Sen', sans-serif;
     font-size: 1.5rem;
-    color: white;
+    color: black;
     margin-bottom: 0;
 }
 

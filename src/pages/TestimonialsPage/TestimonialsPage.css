@@ -43,6 +43,12 @@
     border: 1px solid #815AE0;
 }
 
+@media screen and (max-width: 500px){
+    .testimonial-card{
+        width: auto;
+        height: auto;
+    }
+}
 
 .testimonials p{
     font-weight: 100 !important;
@@ -71,16 +77,8 @@
 
 }
 
-.testimonials-card{
-    width: 100%;
-    max-width: 345px;
-    height: 250px;
-    border-radius: 0px;
-}
-.testimonials-card-image{
-    border-radius: 50%;
-    width:30%;
-}
+
+
 
 .testimonials-avatar{
     margin:5px;
