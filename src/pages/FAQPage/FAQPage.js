@@ -31,7 +31,7 @@ class FAQPage extends React.Component {
                                 Who can participate?
                             </Accordion.Header>
                             <Accordion.Body>
-                                Students of all majors from any school are welcome to participate! Even if you don’t have any coding experience, there will still be plenty of opportunities for you to make a contribution and have a chance to win!
+                                Students of all majors at UConn are welcome to participate! Even if you don’t have any coding experience, there will still be plenty of opportunities for you to make a contribution and have a chance to win!
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="3">
