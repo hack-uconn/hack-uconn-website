@@ -21,7 +21,7 @@ class HomePage extends React.Component {
                     <div className="mt-2">
                         <h1>Innovating Well-being For Us All</h1>
                         <h5>20 hour long Hackathon ● March 3rd - 4th, 2023</h5>
-                        <a href="https://forms.gle/mR8YVdkxNTmkgcts8">
+                        <a href="https://forms.gle/vJTya4M7EZzTDD2C9">
                             <Button variant="primary" className="register mt-3" size="lg">Register</Button>
                         </a>
                     </div>
