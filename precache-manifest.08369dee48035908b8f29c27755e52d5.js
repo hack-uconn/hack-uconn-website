@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "5ba8a16d05e664df663e",
-    "url": "/static/css/main.17d1ab80.chunk.css"
+    "revision": "a5032105595656840713",
+    "url": "/static/css/main.5bbdccc7.chunk.css"
   },
   {
-    "revision": "5ba8a16d05e664df663e",
-    "url": "/static/js/main.7c085b18.chunk.js"
+    "revision": "a5032105595656840713",
+    "url": "/static/js/main.ed57d4e8.chunk.js"
   },
   {
     "revision": "0895a1e67ad5037d4bf0",
@@ -64,32 +64,32 @@ self.__precacheManifest = [
     "url": "/static/media/silverGear.f459870d.png"
   },
   {
-    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
-    "url": "/static/media/slick.b7c9e1e4.woff"
+    "revision": "ced611daf7709cc778da928fec876475",
+    "url": "/static/media/slick.ced611da.eot"
   },
   {
     "revision": "f97e3bbf73254b0112091d0192f17aec",
     "url": "/static/media/slick.f97e3bbf.svg"
   },
   {
-    "revision": "ced611daf7709cc778da928fec876475",
-    "url": "/static/media/slick.ced611da.eot"
-  },
-  {
     "revision": "d41f55a78e6f49a5512878df1737e58a",
     "url": "/static/media/slick.d41f55a7.ttf"
   },
   {
-    "revision": "242eb4009f576c230e3a1955a652cd6c",
-    "url": "/static/media/headTemp.242eb400.png"
+    "revision": "b7c9e1e479de3b53f1e4e30ebac2403a",
+    "url": "/static/media/slick.b7c9e1e4.woff"
+  },
+  {
+    "revision": "0e7aa7318eba174211281102dc9d4cc4",
+    "url": "/static/media/hackuconnHead.0e7aa731.png"
   },
   {
     "revision": "13121f09995b9f8b5421301b3050f8da",
     "url": "/static/media/gear.13121f09.png"
   },
   {
-    "revision": "2162449975efa716887eee71a7d2294c",
-    "url": "/static/media/navbarLogo.21624499.png"
+    "revision": "bc235a8ce0dfd1f9b09b8aa8b2cd6090",
+    "url": "/static/media/navbarHackUConn.bc235a8c.png"
   },
   {
     "revision": "34ada1638ef7bef370e593e45e2cd29a",
@@ -124,7 +124,7 @@ self.__precacheManifest = [
     "url": "/static/media/CCEI.1f09899f.png"
   },
   {
-    "revision": "76aaef9450f6e7d8cf0b8f6713363463",
+    "revision": "7fe34909c3dd6205af5950c051c98b85",
     "url": "/index.html"
   }
 ];
