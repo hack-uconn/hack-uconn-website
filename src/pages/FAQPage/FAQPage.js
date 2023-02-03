@@ -23,7 +23,7 @@ class FAQPage extends React.Component {
                                 When and where is it?
                             </Accordion.Header>
                             <Accordion.Body>
-                                HackUconn will be taking place in Werth Tower at UConn Storrs starting April 9th at 4:00pm until 12:00pm on April 10th, 2022.
+                                HackUConn will be taking place in Werth Tower at UConn Storrs starting March 3rd at 4:00pm until 12:00pm on March 4th, 2023.
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="2">
@@ -39,7 +39,7 @@ class FAQPage extends React.Component {
                                 What is the theme of this year's HackUConn?
                             </Accordion.Header>
                             <Accordion.Body>
-                                This year's competition completely revolves around innovating well-being.
+                                This year's competition completely revolves around the duality of Art and Technology.
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="4">
@@ -87,7 +87,7 @@ class FAQPage extends React.Component {
                                 When can I start hacking?
                             </Accordion.Header>
                             <Accordion.Body>
-                                Hacking can only be done during the annouced hacking period. Also note that no prior work/projects can be brought in.!
+                                Hacking can only be done during the annouced hacking period. Also note that no prior work/projects can be brought in.
                             </Accordion.Body>
                         </Accordion.Item>
                     </Accordion>
