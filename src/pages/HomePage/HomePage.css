@@ -26,6 +26,7 @@
     max-width: 100%;
     margin-top: 0;
     max-height: 26rem;
+    left: 16rem
 }
 
 .head {
@@ -33,17 +34,20 @@
     margin-top: 0;
     max-height: 26rem;
     left: .24rem;
+    top: 1rem;
+    width: 60rem;
+    height: 600px;
 }
 
 .register {
-    background-color: #13D2CC !important;
+    background-color: #815AE0 !important;
     border: none !important;
     font-family: 'Sen', sans-serif !important;
     transition: .3s;
 }
 
 .register:hover {
-    background-color: #815AE0 !important;
+    background-color: #191133 !important;
 }
 
 @keyframes rotation-gears {
