@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
-import navbarLogo from "../../assets/images/NavbarPage/navbarLogo.png"
+import navbarLogo from "../../assets/images/NavbarPage/navbarHackUConn.png"
 import "./NavbarPage.css"
 
 class NavbarPage extends React.Component {
@@ -13,7 +13,7 @@ class NavbarPage extends React.Component {
                     <Navbar.Brand href="#home">
                         <img 
                             src={navbarLogo}
-                            height="40rem"
+                            height="100rem"
                             className="d-inline-block align-top"
                             alt="HackUConn Navbar Logo"
                         />
@@ -21,7 +21,7 @@ class NavbarPage extends React.Component {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
                         <Nav>
-                            <Nav.Link className="navText"><b>Register (Coming soon!)</b></Nav.Link>
+                            <Nav.Link className="navText" href="https://forms.gle/kG1QMxK4j1xSG8Nk7"><b>Register</b></Nav.Link>
                             <Nav.Link className="navText" href="#about"><b>About</b></Nav.Link>
                             <Nav.Link className="navText" href="#faq"><b>FAQ</b></Nav.Link>
                             <Nav.Link className="navText" href="#mentor"><b>Mentors</b></Nav.Link>
