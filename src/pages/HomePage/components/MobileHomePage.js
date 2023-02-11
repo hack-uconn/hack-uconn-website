@@ -1,11 +1,11 @@
 import React from 'react';
 import Button from 'react-bootstrap/Button';
 import Image from 'react-bootstrap/Image';
-import "src/pages/HomePage/components/MobileHomePage.css";
-import head from 'src/assets/images/HomePage/hackuconnHead.png';
-import gear from 'src/assets/images/HomePage/gear.png';
-import NavbarPage from 'src/pages/NavbarPage';
+import head from '../../../assets/images/HomePage/hackuconnHead.png';
+import gear from '../../../assets/images/HomePage/gear.png';
+import NavbarPage from '../../NavbarPage/NavbarPage';
 import Container from 'react-bootstrap/Container';
+import "./MobileHomePage.css";
 
 class HomePage extends React.Component {
     render() {

@@ -1,11 +1,11 @@
 .main {
-    background-image:url('/Users/juliansetiadi/Documents/hack_uconn_website/hack-uconn-website/src/assets/images/HomePage/background.png');
+    background-image:url('../../../assets/images/HomePage/background.png');
     background-size:cover;
     background-position:center;
 }
 
 .main h1 {
-    color: #815AE0;
+    color: #ffffff;
     font-family: 'Sen', sans-serif;
 }
 
@@ -34,7 +34,7 @@
     margin-top: 0;
     max-height: 26rem;
     left: .24rem;
-    top: 1rem;
+    top: 0.25rem;
     width: 60rem;
     height: 600px;
 }
