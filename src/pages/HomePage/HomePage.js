@@ -1,7 +1,9 @@
 import React from "react";
 import MobileHomePage from './components/MobileHomePage';
 import DesktopHomePage from './components/DesktopHomePage';
+
 import "./HomePage.css";
+import NavbarPage from "../NavbarPage/NavbarPage";
 
 function isMobile() {
     if (window.innerWidth <= 576) {
@@ -14,7 +16,14 @@ function isMobile() {
 
 class HomePage extends React.Component {
     render() {
-        return isMobile() ? ( <MobileHomePage /> ) : ( <DesktopHomePage /> )
+        return isMobile() ? 
+        ( 
+            <MobileHomePage />
+        ) : 
+        ( 
+            <DesktopHomePage />
+        )
+        
     }
 }
 export default HomePage;

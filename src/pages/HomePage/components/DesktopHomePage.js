@@ -5,6 +5,9 @@ import head from '../../../assets/images/HomePage/hackuconnHead.png';
 import gear from '../../../assets/images/HomePage/gear.png';
 import NavbarPage from '../../NavbarPage/NavbarPage';
 import Container from 'react-bootstrap/Container';
+import AboutPage from '../../../pages/AboutPage/AboutPage';
+import FAQPage from '../../../pages/FAQPage/FAQPage';
+import FooterPage from '../../../pages/FooterPage/FooterPage';
 import "./DesktopHomePage.css";
 
 class HomePage extends React.Component {
@@ -23,6 +26,11 @@ class HomePage extends React.Component {
                             <Button variant="primary" className="register mt-3" size="lg">Register</Button>
                         </a>
                     </div>
+                </div>
+                <div className='gradient'>
+                    <AboutPage />     
+                    <FAQPage />
+                    <FooterPage />
                 </div>
             </div>
         )
