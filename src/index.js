@@ -11,15 +11,13 @@ import FooterPage from './pages/FooterPage/FooterPage';
 import MentorPage from './pages/MentorPage/MentorPage';
 import TestimonialsPage from './pages/TestimonialsPage/TestimonialsPage';
 import SponsorsPage from './pages/SponsorsPage/SponsorsPage';
+import NavbarPage from './pages/NavbarPage/NavbarPage';
 
 ReactDOM.render(
   <React.StrictMode>
+    {/* <NavbarPage /> */}
     <HomePage />
-    <div className='gradient'>
-      <AboutPage />     
-      <FAQPage />
-      <FooterPage />
-    </div>
+    
   </React.StrictMode>,
   document.getElementById('root')
 );

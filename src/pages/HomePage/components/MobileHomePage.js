@@ -5,14 +5,20 @@ import head from '../../../assets/images/HomePage/hackuconnHead.png';
 import gear from '../../../assets/images/HomePage/gear.png';
 import NavbarPage from '../../NavbarPage/NavbarPage';
 import Container from 'react-bootstrap/Container';
+<<<<<<< HEAD
 import Video from '../../../assets/images/HomePage/LandingVideo.mp4'
+=======
+import AboutPage from '../../../pages/AboutPage/AboutPage';
+import FAQPage from '../../../pages/FAQPage/FAQPage';
+import FooterPage from '../../../pages/FooterPage/FooterPage';
+>>>>>>> 9838438959ac5956d5fd5cd271f7e917cb8359fc
 import "./MobileHomePage.css";
 
 class HomePage extends React.Component {
     render() {
         return (
             <div className='main'>
-                <NavbarPage />
+                {/* <NavbarPage /> */}
                 <div className='landing'>
                     <video src = {Video} autoPlay loop muted />
                     <div className="position-relative mb-3">
@@ -25,6 +31,11 @@ class HomePage extends React.Component {
                             <Button variant="primary" className="register mt-3" size="lg">Register</Button>
                         </a>
                     </div>
+                </div>
+                <div className='gradient'>
+                    <AboutPage />     
+                    <FAQPage />
+                    <FooterPage />
                 </div>
             </div>
         )
