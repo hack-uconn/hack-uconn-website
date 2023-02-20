@@ -7,12 +7,11 @@ import gear from '../../assets/images/HomePage/gear.png';
 import text from '../../assets/images/HomePage/hackuconnText.png';
 import NavbarPage from '../NavbarPage/NavbarPage';
 import Container from 'react-bootstrap/Container';
+import AppRouter from '../../routes';
 
 class HomePage extends React.Component {
     render() {
         return (
-            <div className='main'>
-                <NavbarPage />
                 <div className='landing'>
                     <div className="position-relative mb-3">
                         <Image alt="gear" className="position-absolute gear rotate-gears" src={gear} />
@@ -25,7 +24,6 @@ class HomePage extends React.Component {
                         </a>
                     </div>
                 </div>
-            </div>
         )
     }
 }

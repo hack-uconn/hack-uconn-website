@@ -11,16 +11,22 @@ import FooterPage from './pages/FooterPage/FooterPage';
 import MentorPage from './pages/MentorPage/MentorPage';
 import TestimonialsPage from './pages/TestimonialsPage/TestimonialsPage';
 import SponsorsPage from './pages/SponsorsPage/SponsorsPage';
+import AppRouter from './routes';
+import { BrowserRouter, Routes,
+  Route, } from "react-router-dom"
+import NavbarPage from './pages/NavbarPage/NavbarPage';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <HomePage />
-    <div className='gradient'>
-      <AboutPage />     
-      <FAQPage />
-      <MentorPage />      
-      <FooterPage />
+    <BrowserRouter>
+    <div class ="main">
+      <NavbarPage/>
+      <HomePage />
     </div>
+    <AppRouter/>
+    </BrowserRouter>
+
   </React.StrictMode>,
   document.getElementById('root')
 );
@@ -29,3 +35,4 @@ ReactDOM.render(
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
+
