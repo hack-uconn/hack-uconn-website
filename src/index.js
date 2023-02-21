@@ -17,7 +17,6 @@ ReactDOM.render(
   <React.StrictMode>
     {/* <NavbarPage /> */}
     <HomePage />
-    
   </React.StrictMode>,
   document.getElementById('root')
 );

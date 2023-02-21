@@ -39,7 +39,7 @@ video {
     max-width: 100%;
     margin-top: 0;
     max-height: 26rem;
-    left: 16rem
+    left: 5rem
 }
 
 .head {
@@ -79,9 +79,13 @@ video {
 
 @media (max-width: 576px) {
     .gear {
+        /* left: 5rem; */
         max-width: 100%;
         margin-top: 0;
         max-height: 20rem;
+        margin: 0 auto;
+        display:inline-block;
+        vertical-align: middle;
     }
 
     .head {
@@ -90,4 +94,13 @@ video {
         max-height: 20rem;
         left: .24rem;
     }
+}
+
+.main h2 {
+    color: #ffffff;
+    font-family: 'Sen', sans-serif;
+}
+
+.logo {
+    max-width: 30%;
 }

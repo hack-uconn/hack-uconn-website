@@ -5,13 +5,10 @@ import head from '../../../assets/images/HomePage/hackuconnHead.png';
 import gear from '../../../assets/images/HomePage/gear.png';
 import NavbarPage from '../../NavbarPage/NavbarPage';
 import Container from 'react-bootstrap/Container';
-<<<<<<< HEAD
-import Video from '../../../assets/images/HomePage/LandingVideo.mp4'
-=======
 import AboutPage from '../../../pages/AboutPage/AboutPage';
 import FAQPage from '../../../pages/FAQPage/FAQPage';
 import FooterPage from '../../../pages/FooterPage/FooterPage';
->>>>>>> 9838438959ac5956d5fd5cd271f7e917cb8359fc
+import SponsorsPage from '../../SponsorsPage/SponsorsPage';
 import "./MobileHomePage.css";
 
 class HomePage extends React.Component {
@@ -20,7 +17,7 @@ class HomePage extends React.Component {
             <div className='main'>
                 {/* <NavbarPage /> */}
                 <div className='landing'>
-                    <video src = {Video} autoPlay loop muted />
+                    {/* <video src = {Video} autoPlay loop muted /> */}
                     <div className="position-relative mb-3">
                         <Image alt="gear" className="position-absolute gear rotate-gears" src={gear} />
                         <Image alt="head" className="position-relative head" src={head} />
@@ -35,6 +32,7 @@ class HomePage extends React.Component {
                 <div className='gradient'>
                     <AboutPage />     
                     <FAQPage />
+                    <SponsorsPage />
                     <FooterPage />
                 </div>
             </div>
