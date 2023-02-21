@@ -9,9 +9,7 @@ import Container from 'react-bootstrap/Container';
 import AboutPage from '../../../pages/AboutPage/AboutPage';
 import FAQPage from '../../../pages/FAQPage/FAQPage';
 import FooterPage from '../../../pages/FooterPage/FooterPage';
-import SponsorsPage from '../../SponsorsPage/SponsorsPage';
-import opim from '../../../assets/images/HomePage/opim.png';
-import werth from '../../../assets/images/HomePage/uconnWI.png'
+>>>>>>> 9838438959ac5956d5fd5cd271f7e917cb8359fc
 import "./DesktopHomePage.css";
 
 class HomePage extends React.Component {
