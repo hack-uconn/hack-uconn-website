@@ -39,7 +39,6 @@ video {
     max-width: 100%;
     margin-top: 0;
     max-height: 26rem;
-    left: 5rem
 }
 
 .head {
@@ -79,7 +78,7 @@ video {
 
 @media (max-width: 576px) {
     .gear {
-        /* left: 5rem; */
+        left: 7rem;
         max-width: 100%;
         margin-top: 0;
         max-height: 20rem;

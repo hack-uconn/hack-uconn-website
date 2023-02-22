@@ -5,18 +5,13 @@ import head from '../../../assets/images/HomePage/hackuconnHead.png';
 import gear from '../../../assets/images/HomePage/gear.png';
 import NavbarPage from '../../NavbarPage/NavbarPage';
 import Container from 'react-bootstrap/Container';
-<<<<<<< HEAD
-import AboutPage from '../../../pages/AboutPage/AboutPage';
-import FAQPage from '../../../pages/FAQPage/FAQPage';
-import FooterPage from '../../../pages/FooterPage/FooterPage';
-import SponsorsPage from '../../SponsorsPage/SponsorsPage';
-=======
 import Video from '../../../assets/images/HomePage/LandingVideo.mp4'
 import AboutPage from '../../../pages/AboutPage/AboutPage';
 import FAQPage from '../../../pages/FAQPage/FAQPage';
 import FooterPage from '../../../pages/FooterPage/FooterPage';
->>>>>>> 2bf7e117f89b7d9e7db6d61f6a95c0c0a6c27c4a
 import "./MobileHomePage.css";
+import SponsorsPage from '../../SponsorsPage/SponsorsPage';
+
 
 class HomePage extends React.Component {
     render() {
