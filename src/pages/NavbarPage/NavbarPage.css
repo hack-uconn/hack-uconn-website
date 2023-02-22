@@ -1,6 +1,16 @@
+
 .navbar {
     background-color: none;
     height: 5rem;
+    /* background-color:rgba(138, 44, 226, 0.1); */
+    margin: 0;
+}
+
+.test{
+    background-color:rgb(176,28,76);
+    height: 5rem;
+    /* background-color:rgba(138, 44, 226, 0.1); */
+    margin: 0;
 }
 
 .navText {

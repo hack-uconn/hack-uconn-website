@@ -4,6 +4,7 @@
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10px;
+    max-width: 100%;
 }
 
 
@@ -12,6 +13,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 100%;
 }
 
 .silverGear {
@@ -30,4 +32,18 @@
 
 .sponsorsHeader {
     text-align: center;
+}
+
+@keyframes rotation-gears {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+.rotate-gears {
+    filter: drop-shadow(0 0 0.5rem #000000);
+    animation: rotation-gears 15s infinite linear;
 }

@@ -67,6 +67,7 @@
 
 @media (max-width: 576px) {
     .gear {
+        left: 5rem;
         max-width: 100%;
         margin-top: 0;
         max-height: 20rem;
@@ -78,4 +79,13 @@
         max-height: 20rem;
         left: .24rem;
     }
+}
+
+.main h2 {
+    color: #ffffff;
+    font-family: 'Sen', sans-serif;
+}
+
+.logo {
+    max-width: 30%;
 }
