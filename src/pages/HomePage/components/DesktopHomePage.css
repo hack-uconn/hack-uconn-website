@@ -78,13 +78,10 @@ video {
 
 @media (max-width: 576px) {
     .gear {
-        left: 7rem;
+        left: 6rem;
         max-width: 100%;
         margin-top: 0;
         max-height: 20rem;
-        margin: 0 auto;
-        display:inline-block;
-        vertical-align: middle;
     }
 
     .head {
