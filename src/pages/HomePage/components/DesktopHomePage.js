@@ -11,7 +11,7 @@ class HomePage extends React.Component {
     render() {
         return (
             <div className='main'>
-                <NavbarPage />
+                {/* <NavbarPage /> */}
                 <div className='landing'>
                     <div className="position-relative mb-3">
                         <Image alt="gear" className="position-absolute gear rotate-gears" src={gear} />
