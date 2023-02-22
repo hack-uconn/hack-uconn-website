@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "89a9ca753a6f7616ff9f",
-    "url": "/static/css/main.084367f1.chunk.css"
+    "revision": "f5511d9ea4e8bec90456",
+    "url": "/static/css/main.7b308663.chunk.css"
   },
   {
-    "revision": "89a9ca753a6f7616ff9f",
-    "url": "/static/js/main.6206e981.chunk.js"
+    "revision": "f5511d9ea4e8bec90456",
+    "url": "/static/js/main.af923cbd.chunk.js"
   },
   {
     "revision": "4878902874fab5701c39",
     "url": "/static/js/runtime~main.bb3d2c29.js"
   },
   {
-    "revision": "75a32026b3839d5b4aef",
+    "revision": "fcd1e0f47cacd91583e1",
     "url": "/static/css/2.b2bfcd03.chunk.css"
   },
   {
-    "revision": "75a32026b3839d5b4aef",
-    "url": "/static/js/2.24d01dd2.chunk.js"
+    "revision": "fcd1e0f47cacd91583e1",
+    "url": "/static/js/2.94426608.chunk.js"
   },
   {
     "revision": "acd304de65d6816db641",
@@ -64,6 +64,10 @@ self.__precacheManifest = [
     "url": "/static/media/gear.43433a59.png"
   },
   {
+    "revision": "07543f9550bfa848e61ec80d5bfacfbc",
+    "url": "/static/media/opim.07543f95.png"
+  },
+  {
     "revision": "ced611daf7709cc778da928fec876475",
     "url": "/static/media/slick.ced611da.eot"
   },
@@ -98,10 +102,6 @@ self.__precacheManifest = [
   {
     "revision": "b7147a241ceb949f120a5c2be8e5c1a1",
     "url": "/static/media/uconnPhilosophy.b7147a24.png"
-  },
-  {
-    "revision": "07543f9550bfa848e61ec80d5bfacfbc",
-    "url": "/static/media/opim.07543f95.png"
   },
   {
     "revision": "a1c684af1f5cd188f3d7eee72b52cb9b",
@@ -140,7 +140,7 @@ self.__precacheManifest = [
     "url": "/static/media/CCEI.1f09899f.png"
   },
   {
-    "revision": "8599bf6bfe529845ff38cb1a6aafd5e5",
+    "revision": "b23073263789919f735314e0d33f32d4",
     "url": "/index.html"
   }
 ];
