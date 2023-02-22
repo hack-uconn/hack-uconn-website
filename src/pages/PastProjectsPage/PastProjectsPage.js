@@ -1,43 +1,70 @@
-import Carousel from 'react-bootstrap/Carousel';
+//import Carousel from 'react-bootstrap/Carousel';
 import React, {useState, Component} from 'react';
 import './PastProjectsPage.css';
 import Slider from 'react-slick';
 import pic1 from '../../assets/images/AboutPage/temp1.jpg';
 import pic2 from '../../assets/images/AboutPage/temp2.jpg';
 import pic3 from  '../../assets/images/AboutPage/temp3.jpg';
+
+import winner22_1 from '../../assets/images/PastProjectsPage/reallifesit_winners.png';
+import winner22_2 from '../../assets/images/PastProjectsPage/surround_winners.png';
+import winner22_3 from '../../assets/images/PastProjectsPage/thrive_winners.png';
+import winner21_1 from '../../assets/images/PastProjectsPage/ecocrib_winners.png';
+import winner21_2 from '../../assets/images/PastProjectsPage/thermo_winners.png';
+import winner21_3 from '../../assets/images/PastProjectsPage/huskypow_winners.png';
+
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import Button from 'react-bootstrap/Button';
-
-
 function PastProjectsPage() {
     
   const projectCards = [
     {
+      //2022 Winners
       imageSrc:
-        pic1,
-      title: 'HackUConn 2019',
-      description: 'Lorem ipsum dolor sit amet, consectur dolori',
-      link: 'https://google.com'
+      winner22_1,
+      title: 'Real Life Situations Without Real Life Consequences',
+      description: 'Ibrahima Capo-Chichi, Adira Behmlander, Michael Galan, Justin Leung, Ian Givens, '
+      //link: 'https://google.com'
       
     },
     {
       imageSrc:
-        pic2,
-      title: 'HackUConn 2020',
-      description: 'Lorem ipsum dolor sit amet, consectur dolori',
-      link:'https://facebook.com'
-     
+        winner22_2,
+      title: 'Sense of Belonging',
+      description: 'Rashmi Pai, Peter Alonzo, Ross Relator, and Bryan Lojano'
+      //link: 'https://google.com'
     },
     {
       imageSrc:
-        pic3,
-      title: 'HackUConn 2021',
-      description: 'Lorem ipsum dolor sit amet, consectur dolori',
-      link:'https://twitter.com'
-      
+        winner22_3,
+      title: 'Thrive',
+      description: 'Aditya Dubey, Amisha Paul, and Mansi Dhond'
+      //link: 'https://google.com'
     },
-  
+
+    //2021 Winners
+    {
+      imageSrc:
+        winner21_1,
+      title: 'EcoCrib',
+      description: 'Rohan Parikh, Aditya Dubey, Akash Binoj, Sushant Raj, and Sunny Sarker'
+      //link: 'https://google.com'
+    },
+    {
+      imageSrc:
+        winner21_2,
+      title: 'Thermoelectric Floor',
+      description: 'Kiera Burns and Megan Walsh'
+      //link: 'https://google.com'
+    },
+    {
+      imageSrc:
+        winner21_3,
+      title: 'Husky Power',
+      description: 'Adelle Biondi, Ben Gladstone, Charlotte Chen, and Sebastian De Los Santos'
+      //link: 'https://google.com'
+    },
   ]
         
         const settings = {
@@ -95,5 +122,6 @@ function PastProjectsPage() {
     </div>
         );
     };
+
 
 export default PastProjectsPage;
