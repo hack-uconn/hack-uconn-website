@@ -12,9 +12,8 @@ function isMobile() {
     }
 }
 
-class HomePage extends React.Component {
-    render() {
-        return isMobile() ? ( <MobileHomePage /> ) : ( <DesktopHomePage /> )
-    }
+function HomePage() {
+    return isMobile() ? ( <MobileHomePage /> ) : ( <DesktopHomePage /> )
+
 }
 export default HomePage;
