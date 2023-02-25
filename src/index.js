@@ -18,9 +18,9 @@ import NavbarPage from "./pages/NavbarPage/NavbarPage";
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <div class="main">
+      {/* <div class="main">
         <NavbarPage />
-      </div>
+      </div> */}
       <AppRouter />
       <FooterPage />
     </BrowserRouter>

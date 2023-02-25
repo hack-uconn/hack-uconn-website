@@ -13,9 +13,7 @@ function isMobile() {
 }
 
 
-class MentorPage extends React.Component {
-    render() {
-        return isMobile() ? ( <MobileMentorPage /> ) : ( <DesktopMentorPage /> )
-    }
+function MentorPage() {
+    return isMobile() ? ( <MobileMentorPage /> ) : ( <DesktopMentorPage /> )
 }
 export default MentorPage;

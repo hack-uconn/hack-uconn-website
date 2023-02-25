@@ -48,30 +48,30 @@ class MentorPage extends React.Component {
                         <h1 className="aboutHeader pb-5">Meet The Mentors!</h1>
                         <Col sm={4}>
                             <Col><Image alt="KS" className="mentor-image mb-1" src={m1} /></Col>
-                            <Col><h1 className="name-text">Kristina Stephens</h1></Col>
-                            <Col><p className="role-text">Director of Mental Health at University of Connecticut</p></Col>
+                            <Col><h1 className="name-text">TBD</h1></Col>
+                            <Col><p className="role-text">TBD</p></Col>
                         </Col>
                         <Col sm={4}>
                             <Col><Image alt="DS" className="mentor-image mb-1" src={m2} /></Col>
-                            <Col><h1 className="name-text">Daniel Sandberg</h1></Col>
-                            <Col><p className="role-text">Senior Director, Quantitative Research at S&P Global Market Intelligence</p></Col>
+                            <Col><h1 className="name-text">TBD</h1></Col>
+                            <Col><p className="role-text">TBD</p></Col>
                         </Col>
                         <Col sm={4}>
                             <Col><Image alt="KS" className="mentor-image mb-1" src={m3} /></Col>
-                            <Col><h1 className="name-text">Karen McComb</h1></Col>
-                            <Col><p className="role-text">Director of Health Promotion and Community Impact for Student Health And Wellness at UConn</p></Col>
+                            <Col><h1 className="name-text">TBD</h1></Col>
+                            <Col><p className="role-text">TBD</p></Col>
                         </Col>
                     </Row>
                     <Row className="mt-5">
                     <Col sm={4}>
                             <Col><Image alt="KS" className="mentor-image mb-1" src={m4} /></Col>
-                            <Col><h1 className="name-text">David Coles</h1></Col>
-                            <Col><p className="role-text">Entrepreneur, Wealth Advisor, and CEO of Human Wealth</p></Col>
+                            <Col><h1 className="name-text">TBD</h1></Col>
+                            <Col><p className="role-text">TBD</p></Col>
                         </Col>
                         <Col sm={4}>
                             <Col><Image alt="KS" className="mentor-image mb-1" src={m5} /></Col>
-                            <Col><h1 className="name-text">Nick Satta</h1></Col>
-                            <Col><p className="role-text">Lab Manager, OPIM Innovate</p></Col>
+                            <Col><h1 className="name-text">TBD</h1></Col>
+                            <Col><p className="role-text">TBD</p></Col>
                         </Col> 
                     </Row>    
                 </Container>

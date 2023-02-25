@@ -12,9 +12,8 @@ function isMobile() {
     }
 }
 
-class AboutPage extends React.Component {
-    render() {
-        return isMobile() ? ( <MobileAboutPage /> ) : ( <DesktopAboutPage /> )
-    }
+function AboutPage() {
+    return isMobile() ? ( <MobileAboutPage /> ) : ( <DesktopAboutPage /> )
+
 }
 export default AboutPage;
