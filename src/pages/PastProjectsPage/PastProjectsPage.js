@@ -24,23 +24,23 @@ function PastProjectsPage() {
       imageSrc:
       winner22_1,
       title: 'Real Life Situations Without Real Life Consequences',
-      description: 'Ibrahima Capo-Chichi, Adira Behmlander, Michael Galan, Justin Leung, Ian Givens, '
-      //link: 'https://google.com'
+      description: 'Ibrahima Capo-Chichi, Adira Behmlander, Michael Galan, Justin Leung, Ian Givens', 
+      link: 'https://docs.google.com/presentation/d/15ziuqrBn33-OUFJ2JVx7CLmu4AOTdZs9Va_0LQ6xXoY/edit?usp=sharing'
       
     },
     {
       imageSrc:
         winner22_2,
       title: 'Sense of Belonging',
-      description: 'Rashmi Pai, Peter Alonzo, Ross Relator, and Bryan Lojano'
-      //link: 'https://google.com'
+      description: 'Rashmi Pai, Peter Alonzo, Ross Relator, and Bryan Lojano',
+      link: 'https://docs.google.com/presentation/d/1CbXjH7Xz4BZK5THNlHe1GmHyWtKh_U6nnK8m2aSPw4c/edit?usp=sharing'
     },
     {
       imageSrc:
         winner22_3,
       title: 'Thrive',
-      description: 'Aditya Dubey, Amisha Paul, and Mansi Dhond'
-      //link: 'https://google.com'
+      description: 'Aditya Dubey, Amisha Paul, and Mansi Dhond',
+      link: 'https://thrive-wellness-app.netlify.app/'
     },
 
     //2021 Winners
@@ -48,22 +48,22 @@ function PastProjectsPage() {
       imageSrc:
         winner21_1,
       title: 'EcoCrib',
-      description: 'Rohan Parikh, Aditya Dubey, Akash Binoj, Sushant Raj, and Sunny Sarker'
-      //link: 'https://google.com'
+      description: 'Rohan Parikh, Aditya Dubey, Akash Binoj, Sushant Raj, and Sunny Sarker',
+      link: 'https://ecocrib.netlify.app/'
     },
     {
       imageSrc:
         winner21_2,
       title: 'Thermoelectric Floor',
-      description: 'Kiera Burns and Megan Walsh'
-      //link: 'https://google.com'
+      description: 'Kiera Burns and Megan Walsh',
+      link: 'https://docs.google.com/presentation/d/1Uh6N9RQ-1fnNWmLa34_8HrpQ3_Xfdxqjz--C8jEK52o/edit?usp=sharing'
     },
     {
       imageSrc:
         winner21_3,
       title: 'Husky Power',
-      description: 'Adelle Biondi, Ben Gladstone, Charlotte Chen, and Sebastian De Los Santos'
-      //link: 'https://google.com'
+      description: 'Adelle Biondi, Ben Gladstone, Charlotte Chen, and Sebastian De Los Santos',
+      link: 'https://docs.google.com/presentation/d/1zD35h0_IuYZo08mlhdEabHGTnFNEGWKwHynKCRWGIuA/edit?usp=sharing'
     },
   ]
         
