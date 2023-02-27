@@ -27,7 +27,7 @@ video {
 }
 
 .landing {
-    height:100vh;
+    height:120vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
@@ -78,7 +78,7 @@ video {
 
 @media (max-width: 576px) {
     .gear {
-        left: 6rem;
+        left: 2rem;
         max-width: 100%;
         margin-top: 0;
         max-height: 20rem;
@@ -99,4 +99,9 @@ video {
 
 .logo {
     max-width: 30%;
+    max-height: 13rem;
+}
+
+.sponsorLogos {
+    border-bottom: none;
 }

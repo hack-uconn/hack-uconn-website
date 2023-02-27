@@ -5,7 +5,7 @@
 .aboutHeader {
     text-align: center;
     font-family: "Avenir Next Condensed";
-    color: black;
+    color: black  !important;
     font-size: 3rem;
 }
 
