@@ -70,7 +70,7 @@ function NavbarPage(){
                     <img 
                         src={navbarLogo}
                         height="100rem"
-                        className="d-inline-block align-top"
+                        className="logoNav d-inline-block align-top"
                         alt="HackUConn Navbar Logo"
                     />
                 </Navbar.Brand>
