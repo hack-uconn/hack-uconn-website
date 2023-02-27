@@ -99,4 +99,9 @@ video {
 
 .logo {
     max-width: 30%;
+    max-height: 13rem;
+}
+
+.sponsorLogos {
+    border-bottom: none;
 }
