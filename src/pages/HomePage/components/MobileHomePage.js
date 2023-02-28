@@ -11,6 +11,7 @@ import FAQPage from '../../../pages/FAQPage/FAQPage';
 import FooterPage from '../../../pages/FooterPage/FooterPage';
 import opim from '../../../assets/images/HomePage/opim.png';
 import werth from '../../../assets/images/HomePage/uconnWI.png';
+import krenicki from '../../../assets/images/HomePage/uconnKrenicki.png'
 import "./MobileHomePage.css";
 import SponsorsPage from '../../SponsorsPage/SponsorsPage';
 
