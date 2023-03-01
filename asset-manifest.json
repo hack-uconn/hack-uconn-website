@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.50e280a6.css",
-    "main.js": "/static/js/main.f2f99217.js",
+    "main.css": "/static/css/main.c99b4492.css",
+    "main.js": "/static/js/main.435c5b6b.js",
     "static/js/787.bdabc064.chunk.js": "/static/js/787.bdabc064.chunk.js",
     "static/media/LandingVideo.mp4": "/static/media/LandingVideo.2de1acc0eb70a0c6acc4.mp4",
     "static/media/davidColes.PNG": "/static/media/davidColes.45519c21bb85f7efd5fb.PNG",
@@ -23,23 +23,25 @@
     "static/media/platinumGear.png": "/static/media/platinumGear.bb8712e1ee5178eeef1f.png",
     "static/media/silverGear.png": "/static/media/silverGear.bd10368a1af834531d41.png",
     "static/media/bronzeGear.png": "/static/media/bronzeGear.eda923b64eed62ea4c2a.png",
+    "static/media/synchrony.png": "/static/media/synchrony.dc93b61b68e5f8208fd2.png",
     "static/media/uconnPhilosophy.png": "/static/media/uconnPhilosophy.b02ee57ba0b6ecf83575.png",
     "static/media/CocaColaLogo.png": "/static/media/CocaColaLogo.0f3268d3d57f041ef11c.png",
     "static/media/Aditya.jpg": "/static/media/Aditya.5123c34464e85cf51746.jpg",
     "static/media/uconninchip.png": "/static/media/uconninchip.0cf909dd5aee54086bb3.png",
     "static/media/CCEI.png": "/static/media/CCEI.d7ec0c3e64537749c770.png",
     "static/media/Karen.png": "/static/media/Karen.1926272345a284b5c363.png",
+    "static/media/gladstein.png": "/static/media/gladstein.f98c2394ee0eb37dcfd6.png",
     "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "index.html": "/index.html",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "main.50e280a6.css.map": "/static/css/main.50e280a6.css.map",
-    "main.f2f99217.js.map": "/static/js/main.f2f99217.js.map",
+    "main.c99b4492.css.map": "/static/css/main.c99b4492.css.map",
+    "main.435c5b6b.js.map": "/static/js/main.435c5b6b.js.map",
     "787.bdabc064.chunk.js.map": "/static/js/787.bdabc064.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50e280a6.css",
-    "static/js/main.f2f99217.js"
+    "static/css/main.c99b4492.css",
+    "static/js/main.435c5b6b.js"
   ]
 }
