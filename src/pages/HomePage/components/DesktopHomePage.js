@@ -24,7 +24,7 @@ class HomePage extends React.Component {
                 {/* <div className='overlay'></div> */}
                 {/*<video className ='main' src = {Video} autoPlay loop muted />*/}
                 <div className='landing'>
-                    <h2 className="mt-8">The Werth Institute and OPIM Innovate Proudly Presents:</h2>
+                    <h2>The Werth Institute and OPIM Innovate Proudly Presents:</h2>
                     <div className="position-relative mb-3">
                         <Image alt="gear" className="position-absolute gear rotate-gears" src={gear} />
                         <Image alt="head" className="position-relative head" src={head} />
@@ -35,11 +35,10 @@ class HomePage extends React.Component {
                         <a href='https://krenicki.institute.uconn.edu/'><Image alt="krenicki" className="logo" src={krenicki} /></a>
                     </div>
                     <div>
+                        <h1>20 hour long Hackathon ● March 3rd - 4th, 2023</h1>
                         <a href="https://forms.gle/kG1QMxK4j1xSG8Nk7">
                             <Button variant="primary" className="register mt-3" size="lg">Register</Button>
                         </a>
-                        <h1 className='mt-3'>20 hour long Hackathon ● March 3rd - 4th, 2023</h1>
-                        
                     </div>
                 </div>
                 <div className='gradient'>
