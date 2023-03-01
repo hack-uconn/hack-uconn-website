@@ -38,8 +38,6 @@ class HomePage extends React.Component {
                         <a href="https://forms.gle/kG1QMxK4j1xSG8Nk7">
                             <Button variant="primary" className="register mt-3" size="lg">Register</Button>
                         </a>
-                        <h1 className='mt-3'>20 hour long Hackathon ● March 3rd - 4th, 2023</h1>
-                        
                     </div>
                 </div>
                 <div className='gradient'>
